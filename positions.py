@@ -80,8 +80,9 @@ def scrape_hyperdash_with_scraping_bee_sdk(symbol='XPL'):
     client = ScrapingBeeClient(api_key=scraping_bee_api_key)
     response = client.get(hyperdash_url, headers=headers)
     data = json.loads(response.content)
-    with open(f'./positions/{symbol}.json', "w") as f:
-        json.dump(data, f, indent=4)
+    if response.status_code == 200 and '<' not in response.content and 'error' in response.content:
+        with open(f'./positions/{symbol}.json', "w") as f:
+            json.dump(data, f, indent=4)
     return data
 
 
