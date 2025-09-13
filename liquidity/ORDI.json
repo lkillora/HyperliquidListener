@@ -1,0 +1,17 @@
+{
+    "mid": 10.350000000000001,
+    "bid_5": 2612,
+    "bid_10": 2612,
+    "ask_5": 2790,
+    "ask_10": 2790,
+    "id": "76",
+    "symbol": "ORDI/USDC:USDC",
+    "baseName": "ORDI",
+    "spot": false,
+    "midPx": "10.3085",
+    "maxLeverage": "5",
+    "openInterest_mil": 0.15,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 0.385,
+    "asset": "ORDI"
+}

@@ -1,0 +1,17 @@
+{
+    "mid": 0.1825,
+    "bid_5": 735,
+    "bid_10": 735,
+    "ask_5": 819,
+    "ask_10": 819,
+    "id": "21",
+    "symbol": "CFX/USDC:USDC",
+    "baseName": "CFX",
+    "spot": false,
+    "midPx": "0.182365",
+    "maxLeverage": "5",
+    "openInterest_mil": 7.584,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 0.479,
+    "asset": "CFX"
+}

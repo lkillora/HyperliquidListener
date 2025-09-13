@@ -1,0 +1,17 @@
+{
+    "mid": 1.335,
+    "bid_5": 1206,
+    "bid_10": 1206,
+    "ask_5": 1367,
+    "ask_10": 1367,
+    "id": "162",
+    "symbol": "VIRTUAL/USDC:USDC",
+    "baseName": "VIRTUAL",
+    "spot": false,
+    "midPx": "1.328",
+    "maxLeverage": "5",
+    "openInterest_mil": 11.974,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 4.708,
+    "asset": "VIRTUAL"
+}

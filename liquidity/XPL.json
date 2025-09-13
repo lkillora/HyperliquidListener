@@ -1,0 +1,17 @@
+{
+    "mid": 0.8265,
+    "bid_5": 143,
+    "bid_10": 143,
+    "ask_5": 444,
+    "ask_10": 444,
+    "id": "203",
+    "symbol": "XPL/USDC:USDC",
+    "baseName": "XPL",
+    "spot": false,
+    "midPx": "0.824",
+    "maxLeverage": "3",
+    "openInterest_mil": 157.631,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 25.164,
+    "asset": "XPL"
+}

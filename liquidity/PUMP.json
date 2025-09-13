@@ -1,0 +1,17 @@
+{
+    "mid": 0.006215,
+    "bid_5": 4031,
+    "bid_10": 4031,
+    "ask_5": 4459,
+    "ask_10": 4459,
+    "id": "200",
+    "symbol": "PUMP/USDC:USDC",
+    "baseName": "PUMP",
+    "spot": false,
+    "midPx": "0.006213",
+    "maxLeverage": "5",
+    "openInterest_mil": 81616.404,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 198.03,
+    "asset": "PUMP"
+}

@@ -1,0 +1,17 @@
+{
+    "mid": 243.5,
+    "bid_5": 1756,
+    "bid_10": 1756,
+    "ask_5": 2044,
+    "ask_10": 2044,
+    "id": "@156",
+    "symbol": "USOL/USDC",
+    "baseName": "USOL",
+    "spot": true,
+    "midPx": "242.255",
+    "maxLeverage": null,
+    "openInterest_mil": NaN,
+    "totalSupplyMcap_bil": 121.13,
+    "dayNtlVlm_mil": 68.151,
+    "asset": "@156"
+}

@@ -1,0 +1,17 @@
+{
+    "mid": 0.3145,
+    "bid_5": 129,
+    "bid_10": 129,
+    "ask_5": 136,
+    "ask_10": 136,
+    "id": "190",
+    "symbol": "WCT/USDC:USDC",
+    "baseName": "WCT",
+    "spot": false,
+    "midPx": "0.313715",
+    "maxLeverage": "3",
+    "openInterest_mil": 3.518,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 0.302,
+    "asset": "WCT"
+}

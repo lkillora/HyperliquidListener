@@ -1,0 +1,17 @@
+{
+    "mid": 14.45,
+    "bid_5": 3345,
+    "bid_10": 3345,
+    "ask_5": 3610,
+    "ask_10": 3610,
+    "id": "13",
+    "symbol": "INJ/USDC:USDC",
+    "baseName": "INJ",
+    "spot": false,
+    "midPx": "14.4165",
+    "maxLeverage": "10",
+    "openInterest_mil": 0.614,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 4.0,
+    "asset": "INJ"
+}

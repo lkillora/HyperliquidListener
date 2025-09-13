@@ -1,0 +1,17 @@
+{
+    "mid": 0.1845,
+    "bid_5": 143,
+    "bid_10": 143,
+    "ask_5": 142,
+    "ask_10": 142,
+    "id": "110",
+    "symbol": "MAVIA/USDC:USDC",
+    "baseName": "MAVIA",
+    "spot": false,
+    "midPx": "0.18328",
+    "maxLeverage": "3",
+    "openInterest_mil": 8.633,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 1.496,
+    "asset": "MAVIA"
+}

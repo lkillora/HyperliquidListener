@@ -1,0 +1,17 @@
+{
+    "mid": 25.05,
+    "bid_5": 25515,
+    "bid_10": 25515,
+    "ask_5": 28114,
+    "ask_10": 28114,
+    "id": "18",
+    "symbol": "LINK/USDC:USDC",
+    "baseName": "LINK",
+    "spot": false,
+    "midPx": "25.0905",
+    "maxLeverage": "10",
+    "openInterest_mil": 5.512,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 82.091,
+    "asset": "LINK"
+}

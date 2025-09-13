@@ -1,0 +1,17 @@
+{
+    "mid": 0.9305000000000001,
+    "bid_5": 411,
+    "bid_10": 411,
+    "ask_5": 436,
+    "ask_10": 436,
+    "id": "201",
+    "symbol": "PROVE/USDC:USDC",
+    "baseName": "PROVE",
+    "spot": false,
+    "midPx": "0.930785",
+    "maxLeverage": "3",
+    "openInterest_mil": 2.501,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 0.78,
+    "asset": "PROVE"
+}

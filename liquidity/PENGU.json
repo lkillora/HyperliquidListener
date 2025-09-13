@@ -1,0 +1,17 @@
+{
+    "mid": 0.03635,
+    "bid_5": 5532,
+    "bid_10": 5532,
+    "ask_5": 5236,
+    "ask_10": 5236,
+    "id": "163",
+    "symbol": "PENGU/USDC:USDC",
+    "baseName": "PENGU",
+    "spot": false,
+    "midPx": "0.036202",
+    "maxLeverage": "5",
+    "openInterest_mil": 2069.831,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 56.479,
+    "asset": "PENGU"
+}

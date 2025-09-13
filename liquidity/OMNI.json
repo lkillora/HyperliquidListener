@@ -1,0 +1,17 @@
+{
+    "mid": 3.495,
+    "bid_5": 193,
+    "bid_10": 193,
+    "ask_5": 214,
+    "ask_10": 214,
+    "id": "129",
+    "symbol": "OMNI/USDC:USDC",
+    "baseName": "OMNI",
+    "spot": false,
+    "midPx": "3.4893",
+    "maxLeverage": "3",
+    "openInterest_mil": 0.63,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 1.2,
+    "asset": "OMNI"
+}

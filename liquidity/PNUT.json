@@ -1,0 +1,17 @@
+{
+    "mid": 0.2585,
+    "bid_5": 638,
+    "bid_10": 638,
+    "ask_5": 701,
+    "ask_10": 701,
+    "id": "153",
+    "symbol": "PNUT/USDC:USDC",
+    "baseName": "PNUT",
+    "spot": false,
+    "midPx": "0.25769",
+    "maxLeverage": "5",
+    "openInterest_mil": 10.088,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 2.253,
+    "asset": "PNUT"
+}

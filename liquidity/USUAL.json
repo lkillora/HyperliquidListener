@@ -1,0 +1,17 @@
+{
+    "mid": 0.07005,
+    "bid_5": 213,
+    "bid_10": 213,
+    "ask_5": 210,
+    "ask_10": 210,
+    "id": "164",
+    "symbol": "USUAL/USDC:USDC",
+    "baseName": "USUAL",
+    "spot": false,
+    "midPx": "0.06986",
+    "maxLeverage": "5",
+    "openInterest_mil": 14.83,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 0.524,
+    "asset": "USUAL"
+}

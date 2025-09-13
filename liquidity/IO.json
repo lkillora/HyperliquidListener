@@ -1,0 +1,17 @@
+{
+    "mid": 0.656,
+    "bid_5": 158,
+    "bid_10": 158,
+    "ask_5": 158,
+    "ask_10": 158,
+    "id": "135",
+    "symbol": "IO/USDC:USDC",
+    "baseName": "IO",
+    "spot": false,
+    "midPx": "0.65343",
+    "maxLeverage": "5",
+    "openInterest_mil": 6.505,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 0.392,
+    "asset": "IO"
+}

@@ -1,0 +1,17 @@
+{
+    "mid": 0.057050000000000003,
+    "bid_5": 286,
+    "bid_10": 286,
+    "ask_5": 237,
+    "ask_10": 237,
+    "id": "103",
+    "symbol": "XAI/USDC:USDC",
+    "baseName": "XAI",
+    "spot": false,
+    "midPx": "0.05696",
+    "maxLeverage": "3",
+    "openInterest_mil": 27.705,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 1.533,
+    "asset": "XAI"
+}

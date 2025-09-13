@@ -1,0 +1,17 @@
+{
+    "mid": 1.475,
+    "bid_5": 140,
+    "bid_10": 140,
+    "ask_5": 99,
+    "ask_10": 99,
+    "id": "@193",
+    "symbol": "UUUSPX/USDC",
+    "baseName": "UUUSPX",
+    "spot": true,
+    "midPx": "1.468",
+    "maxLeverage": null,
+    "openInterest_mil": NaN,
+    "totalSupplyMcap_bil": 1.467,
+    "dayNtlVlm_mil": 1.084,
+    "asset": "@193"
+}

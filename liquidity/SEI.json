@@ -1,0 +1,17 @@
+{
+    "mid": 0.347,
+    "bid_5": 3719,
+    "bid_10": 3719,
+    "ask_5": 3681,
+    "ask_10": 3681,
+    "id": "40",
+    "symbol": "SEI/USDC:USDC",
+    "baseName": "SEI",
+    "spot": false,
+    "midPx": "0.346715",
+    "maxLeverage": "10",
+    "openInterest_mil": 58.721,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 10.541,
+    "asset": "SEI"
+}

@@ -1,0 +1,17 @@
+{
+    "mid": 0.1315,
+    "bid_5": 343,
+    "bid_10": 343,
+    "ask_5": 335,
+    "ask_10": 335,
+    "id": "161",
+    "symbol": "MOVE/USDC:USDC",
+    "baseName": "MOVE",
+    "spot": false,
+    "midPx": "0.13148",
+    "maxLeverage": "5",
+    "openInterest_mil": 13.266,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 0.348,
+    "asset": "MOVE"
+}

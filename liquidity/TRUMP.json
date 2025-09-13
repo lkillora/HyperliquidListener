@@ -1,0 +1,17 @@
+{
+    "mid": 8.99,
+    "bid_5": 3462,
+    "bid_10": 3462,
+    "ask_5": 4143,
+    "ask_10": 4143,
+    "id": "174",
+    "symbol": "TRUMP/USDC:USDC",
+    "baseName": "TRUMP",
+    "spot": false,
+    "midPx": "8.971",
+    "maxLeverage": "10",
+    "openInterest_mil": 3.274,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 5.44,
+    "asset": "TRUMP"
+}

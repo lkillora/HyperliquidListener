@@ -1,0 +1,17 @@
+{
+    "mid": 0.02345,
+    "bid_5": 157,
+    "bid_10": 157,
+    "ask_5": 138,
+    "ask_10": 138,
+    "id": "168",
+    "symbol": "ZEREBRO/USDC:USDC",
+    "baseName": "ZEREBRO",
+    "spot": false,
+    "midPx": "0.023491",
+    "maxLeverage": "5",
+    "openInterest_mil": 61.328,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 0.614,
+    "asset": "ZEREBRO"
+}

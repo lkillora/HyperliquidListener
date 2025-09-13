@@ -1,0 +1,17 @@
+{
+    "mid": 2.4400000000000004,
+    "bid_5": 643,
+    "bid_10": 643,
+    "ask_5": 814,
+    "ask_10": 814,
+    "id": "180",
+    "symbol": "BERA/USDC:USDC",
+    "baseName": "BERA",
+    "spot": false,
+    "midPx": "2.4398",
+    "maxLeverage": "5",
+    "openInterest_mil": 8.693,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 3.574,
+    "asset": "BERA"
+}

@@ -1,0 +1,17 @@
+{
+    "mid": 3.725,
+    "bid_5": 16410,
+    "bid_10": 16410,
+    "ask_5": 17129,
+    "ask_10": 17129,
+    "id": "14",
+    "symbol": "SUI/USDC:USDC",
+    "baseName": "SUI",
+    "spot": false,
+    "midPx": "3.72055",
+    "maxLeverage": "10",
+    "openInterest_mil": 29.481,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 44.001,
+    "asset": "SUI"
+}

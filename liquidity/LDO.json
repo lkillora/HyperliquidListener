@@ -1,0 +1,17 @@
+{
+    "mid": 1.3050000000000002,
+    "bid_5": 1771,
+    "bid_10": 1771,
+    "ask_5": 1551,
+    "ask_10": 1551,
+    "id": "17",
+    "symbol": "LDO/USDC:USDC",
+    "baseName": "LDO",
+    "spot": false,
+    "midPx": "1.30125",
+    "maxLeverage": "10",
+    "openInterest_mil": 26.095,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 4.906,
+    "asset": "LDO"
+}

@@ -1,0 +1,17 @@
+{
+    "mid": 925.5,
+    "bid_5": 8212,
+    "bid_10": 8212,
+    "ask_5": 7715,
+    "ask_10": 7715,
+    "id": "7",
+    "symbol": "BNB/USDC:USDC",
+    "baseName": "BNB",
+    "spot": false,
+    "midPx": "925.865",
+    "maxLeverage": "10",
+    "openInterest_mil": 0.069,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 26.161,
+    "asset": "BNB"
+}

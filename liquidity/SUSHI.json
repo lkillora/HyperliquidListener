@@ -1,0 +1,17 @@
+{
+    "mid": 0.8445,
+    "bid_5": 279,
+    "bid_10": 279,
+    "ask_5": 292,
+    "ask_10": 292,
+    "id": "82",
+    "symbol": "SUSHI/USDC:USDC",
+    "baseName": "SUSHI",
+    "spot": false,
+    "midPx": "0.84462",
+    "maxLeverage": "5",
+    "openInterest_mil": 0.858,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 0.302,
+    "asset": "SUSHI"
+}

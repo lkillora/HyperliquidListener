@@ -1,0 +1,17 @@
+{
+    "mid": 242.5,
+    "bid_5": 121719,
+    "bid_10": 121719,
+    "ask_5": 80843,
+    "ask_10": 80843,
+    "id": "5",
+    "symbol": "SOL/USDC:USDC",
+    "baseName": "SOL",
+    "spot": false,
+    "midPx": "241.955",
+    "maxLeverage": "20",
+    "openInterest_mil": 6.137,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 1665.588,
+    "asset": "SOL"
+}

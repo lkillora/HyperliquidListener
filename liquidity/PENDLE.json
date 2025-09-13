@@ -1,0 +1,17 @@
+{
+    "mid": 5.275,
+    "bid_5": 1804,
+    "bid_10": 1804,
+    "ask_5": 2506,
+    "ask_10": 2506,
+    "id": "70",
+    "symbol": "PENDLE/USDC:USDC",
+    "baseName": "PENDLE",
+    "spot": false,
+    "midPx": "5.27005",
+    "maxLeverage": "5",
+    "openInterest_mil": 4.785,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 9.283,
+    "asset": "PENDLE"
+}

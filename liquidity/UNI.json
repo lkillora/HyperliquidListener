@@ -1,0 +1,17 @@
+{
+    "mid": 10.149999999999999,
+    "bid_5": 2722,
+    "bid_10": 2722,
+    "ask_5": 2238,
+    "ask_10": 2238,
+    "id": "39",
+    "symbol": "UNI/USDC:USDC",
+    "baseName": "UNI",
+    "spot": false,
+    "midPx": "10.1715",
+    "maxLeverage": "10",
+    "openInterest_mil": 2.053,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 10.083,
+    "asset": "UNI"
+}

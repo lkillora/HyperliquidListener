@@ -1,0 +1,17 @@
+{
+    "mid": 320.5,
+    "bid_5": 13672,
+    "bid_10": 13672,
+    "ask_5": 14200,
+    "ask_10": 14200,
+    "id": "28",
+    "symbol": "AAVE/USDC:USDC",
+    "baseName": "AAVE",
+    "spot": false,
+    "midPx": "320.54",
+    "maxLeverage": "10",
+    "openInterest_mil": 0.195,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 27.946,
+    "asset": "AAVE"
+}

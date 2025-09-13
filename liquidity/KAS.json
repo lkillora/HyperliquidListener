@@ -1,0 +1,17 @@
+{
+    "mid": 0.0886,
+    "bid_5": 419,
+    "bid_10": 419,
+    "ask_5": 275,
+    "ask_10": 275,
+    "id": "60",
+    "symbol": "KAS/USDC:USDC",
+    "baseName": "KAS",
+    "spot": false,
+    "midPx": "0.088541",
+    "maxLeverage": "3",
+    "openInterest_mil": 19.05,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 0.692,
+    "asset": "KAS"
+}

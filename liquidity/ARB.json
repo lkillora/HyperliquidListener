@@ -1,0 +1,17 @@
+{
+    "mid": 0.546,
+    "bid_5": 5802,
+    "bid_10": 5802,
+    "ask_5": 5738,
+    "ask_10": 5738,
+    "id": "11",
+    "symbol": "ARB/USDC:USDC",
+    "baseName": "ARB",
+    "spot": false,
+    "midPx": "0.54602",
+    "maxLeverage": "10",
+    "openInterest_mil": 50.73,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 9.435,
+    "asset": "ARB"
+}

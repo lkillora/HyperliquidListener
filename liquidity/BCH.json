@@ -1,0 +1,17 @@
+{
+    "mid": 598.5,
+    "bid_5": 3309,
+    "bid_10": 3309,
+    "ask_5": 3234,
+    "ask_10": 3234,
+    "id": "26",
+    "symbol": "BCH/USDC:USDC",
+    "baseName": "BCH",
+    "spot": false,
+    "midPx": "598.375",
+    "maxLeverage": "10",
+    "openInterest_mil": 0.023,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 3.78,
+    "asset": "BCH"
+}

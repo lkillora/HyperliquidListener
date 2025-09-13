@@ -1,0 +1,17 @@
+{
+    "mid": 0.622,
+    "bid_5": 663,
+    "bid_10": 663,
+    "ask_5": 633,
+    "ask_10": 633,
+    "id": "8",
+    "symbol": "APE/USDC:USDC",
+    "baseName": "APE",
+    "spot": false,
+    "midPx": "0.62199",
+    "maxLeverage": "5",
+    "openInterest_mil": 2.874,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 0.293,
+    "asset": "APE"
+}

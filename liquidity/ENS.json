@@ -1,0 +1,17 @@
+{
+    "mid": 24.95,
+    "bid_5": 602,
+    "bid_10": 602,
+    "ask_5": 419,
+    "ask_10": 419,
+    "id": "101",
+    "symbol": "ENS/USDC:USDC",
+    "baseName": "ENS",
+    "spot": false,
+    "midPx": "24.914",
+    "maxLeverage": "5",
+    "openInterest_mil": 0.526,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 0.545,
+    "asset": "ENS"
+}

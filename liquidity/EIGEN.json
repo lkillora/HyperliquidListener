@@ -1,0 +1,17 @@
+{
+    "mid": 1.5350000000000001,
+    "bid_5": 1125,
+    "bid_10": 1125,
+    "ask_5": 1054,
+    "ask_10": 1054,
+    "id": "130",
+    "symbol": "EIGEN/USDC:USDC",
+    "baseName": "EIGEN",
+    "spot": false,
+    "midPx": "1.5277",
+    "maxLeverage": "5",
+    "openInterest_mil": 11.438,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 4.91,
+    "asset": "EIGEN"
+}

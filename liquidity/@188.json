@@ -1,0 +1,17 @@
+{
+    "mid": 0.006144999999999999,
+    "bid_5": 832,
+    "bid_10": 832,
+    "ask_5": 427,
+    "ask_10": 427,
+    "id": "@188",
+    "symbol": "UPUMP/USDC",
+    "baseName": "UPUMP",
+    "spot": true,
+    "midPx": "0.00621075",
+    "maxLeverage": null,
+    "openInterest_mil": NaN,
+    "totalSupplyMcap_bil": 6.212,
+    "dayNtlVlm_mil": 68.526,
+    "asset": "@188"
+}

@@ -1,0 +1,17 @@
+{
+    "mid": 0.8985000000000001,
+    "bid_5": 300,
+    "bid_10": 300,
+    "ask_5": 313,
+    "ask_10": 313,
+    "id": "@162",
+    "symbol": "UFART/USDC",
+    "baseName": "UFART",
+    "spot": true,
+    "midPx": "0.89875",
+    "maxLeverage": null,
+    "openInterest_mil": NaN,
+    "totalSupplyMcap_bil": 0.899,
+    "dayNtlVlm_mil": 12.411,
+    "asset": "@162"
+}

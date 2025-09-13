@@ -1,0 +1,17 @@
+{
+    "mid": 4.035,
+    "bid_5": 1502,
+    "bid_10": 1502,
+    "ask_5": 504,
+    "ask_10": 504,
+    "id": "140",
+    "symbol": "RENDER/USDC:USDC",
+    "baseName": "RENDER",
+    "spot": false,
+    "midPx": "4.02615",
+    "maxLeverage": "5",
+    "openInterest_mil": 0.937,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 1.066,
+    "asset": "RENDER"
+}

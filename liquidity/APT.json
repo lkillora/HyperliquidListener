@@ -1,0 +1,17 @@
+{
+    "mid": 4.62,
+    "bid_5": 5042,
+    "bid_10": 5042,
+    "ask_5": 5099,
+    "ask_10": 5099,
+    "id": "27",
+    "symbol": "APT/USDC:USDC",
+    "baseName": "APT",
+    "spot": false,
+    "midPx": "4.62",
+    "maxLeverage": "10",
+    "openInterest_mil": 4.287,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 6.534,
+    "asset": "APT"
+}

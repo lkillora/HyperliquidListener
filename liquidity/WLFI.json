@@ -1,0 +1,17 @@
+{
+    "mid": 0.2065,
+    "bid_5": 6438,
+    "bid_10": 6438,
+    "ask_5": 6445,
+    "ask_10": 6445,
+    "id": "204",
+    "symbol": "WLFI/USDC:USDC",
+    "baseName": "WLFI",
+    "spot": false,
+    "midPx": "0.206765",
+    "maxLeverage": "5",
+    "openInterest_mil": 366.724,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 45.899,
+    "asset": "WLFI"
+}

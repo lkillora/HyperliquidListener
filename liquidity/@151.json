@@ -1,0 +1,17 @@
+{
+    "mid": 4705.0,
+    "bid_5": 5993,
+    "bid_10": 5993,
+    "ask_5": 6912,
+    "ask_10": 6912,
+    "id": "@151",
+    "symbol": "UETH/USDC",
+    "baseName": "UETH",
+    "spot": true,
+    "midPx": "4705.45",
+    "maxLeverage": null,
+    "openInterest_mil": NaN,
+    "totalSupplyMcap_bil": 470.54,
+    "dayNtlVlm_mil": 97.411,
+    "asset": "@151"
+}

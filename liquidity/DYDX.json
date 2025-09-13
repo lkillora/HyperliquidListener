@@ -1,0 +1,17 @@
+{
+    "mid": 0.667,
+    "bid_5": 226,
+    "bid_10": 226,
+    "ask_5": 392,
+    "ask_10": 392,
+    "id": "4",
+    "symbol": "DYDX/USDC:USDC",
+    "baseName": "DYDX",
+    "spot": false,
+    "midPx": "0.66667",
+    "maxLeverage": "5",
+    "openInterest_mil": 2.337,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 0.484,
+    "asset": "DYDX"
+}

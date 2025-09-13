@@ -1,0 +1,17 @@
+{
+    "mid": 0.2485,
+    "bid_5": 516,
+    "bid_10": 516,
+    "ask_5": 508,
+    "ask_10": 508,
+    "id": "158",
+    "symbol": "ALGO/USDC:USDC",
+    "baseName": "ALGO",
+    "spot": false,
+    "midPx": "0.248065",
+    "maxLeverage": "5",
+    "openInterest_mil": 12.524,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 1.253,
+    "asset": "ALGO"
+}

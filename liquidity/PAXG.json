@@ -1,0 +1,17 @@
+{
+    "mid": 3645.0,
+    "bid_5": 1227,
+    "bid_10": 1227,
+    "ask_5": 868,
+    "ask_10": 868,
+    "id": "187",
+    "symbol": "PAXG/USDC:USDC",
+    "baseName": "PAXG",
+    "spot": false,
+    "midPx": "3642.65",
+    "maxLeverage": "5",
+    "openInterest_mil": 0.007,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 2.821,
+    "asset": "PAXG"
+}

@@ -1,0 +1,17 @@
+{
+    "mid": 55.25,
+    "bid_5": 42793,
+    "bid_10": 42793,
+    "ask_5": 14538,
+    "ask_10": 14538,
+    "id": "159",
+    "symbol": "HYPE/USDC:USDC",
+    "baseName": "HYPE",
+    "spot": false,
+    "midPx": "55.2155",
+    "maxLeverage": "10",
+    "openInterest_mil": 26.722,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 755.459,
+    "asset": "HYPE"
+}

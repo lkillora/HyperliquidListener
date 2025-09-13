@@ -1,0 +1,17 @@
+{
+    "mid": 2.795,
+    "bid_5": 3899,
+    "bid_10": 3899,
+    "ask_5": 3803,
+    "ask_10": 3803,
+    "id": "74",
+    "symbol": "NEAR/USDC:USDC",
+    "baseName": "NEAR",
+    "spot": false,
+    "midPx": "2.79225",
+    "maxLeverage": "10",
+    "openInterest_mil": 3.979,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 3.05,
+    "asset": "NEAR"
+}

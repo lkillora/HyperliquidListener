@@ -1,0 +1,17 @@
+{
+    "mid": 0.05245,
+    "bid_5": 526,
+    "bid_10": 526,
+    "ask_5": 481,
+    "ask_10": 481,
+    "id": "155",
+    "symbol": "CHILLGUY/USDC:USDC",
+    "baseName": "CHILLGUY",
+    "spot": false,
+    "midPx": "0.052412",
+    "maxLeverage": "3",
+    "openInterest_mil": 123.988,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 2.164,
+    "asset": "CHILLGUY"
+}

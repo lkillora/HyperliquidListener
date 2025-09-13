@@ -1,0 +1,17 @@
+{
+    "mid": 28.95,
+    "bid_5": 17146,
+    "bid_10": 17146,
+    "ask_5": 14440,
+    "ask_10": 14440,
+    "id": "6",
+    "symbol": "AVAX/USDC:USDC",
+    "baseName": "AVAX",
+    "spot": false,
+    "midPx": "28.9835",
+    "maxLeverage": "10",
+    "openInterest_mil": 4.066,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 50.203,
+    "asset": "AVAX"
+}

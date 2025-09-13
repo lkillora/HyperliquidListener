@@ -1,0 +1,17 @@
+{
+    "mid": 0.4385,
+    "bid_5": 478,
+    "bid_10": 478,
+    "ask_5": 468,
+    "ask_10": 468,
+    "id": "202",
+    "symbol": "YZY/USDC:USDC",
+    "baseName": "YZY",
+    "spot": false,
+    "midPx": "0.437635",
+    "maxLeverage": "3",
+    "openInterest_mil": 3.894,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 0.299,
+    "asset": "YZY"
+}

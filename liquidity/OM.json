@@ -1,0 +1,17 @@
+{
+    "mid": 0.2225,
+    "bid_5": 683,
+    "bid_10": 683,
+    "ask_5": 682,
+    "ask_10": 682,
+    "id": "184",
+    "symbol": "OM/USDC:USDC",
+    "baseName": "OM",
+    "spot": false,
+    "midPx": "0.22253",
+    "maxLeverage": "5",
+    "openInterest_mil": 14.645,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 0.251,
+    "asset": "OM"
+}

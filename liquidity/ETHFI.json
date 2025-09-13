@@ -1,0 +1,17 @@
+{
+    "mid": 1.4449999999999998,
+    "bid_5": 1549,
+    "bid_10": 1549,
+    "ask_5": 1291,
+    "ask_10": 1291,
+    "id": "121",
+    "symbol": "ETHFI/USDC:USDC",
+    "baseName": "ETHFI",
+    "spot": false,
+    "midPx": "1.44255",
+    "maxLeverage": "5",
+    "openInterest_mil": 8.988,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 7.009,
+    "asset": "ETHFI"
+}

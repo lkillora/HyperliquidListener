@@ -1,0 +1,17 @@
+{
+    "mid": 0.3835,
+    "bid_5": 343,
+    "bid_10": 343,
+    "ask_5": 329,
+    "ask_10": 329,
+    "id": "193",
+    "symbol": "INIT/USDC:USDC",
+    "baseName": "INIT",
+    "spot": false,
+    "midPx": "0.382415",
+    "maxLeverage": "3",
+    "openInterest_mil": 12.009,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 0.294,
+    "asset": "INIT"
+}

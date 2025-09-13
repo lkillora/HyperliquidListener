@@ -1,0 +1,17 @@
+{
+    "mid": 0.6964999999999999,
+    "bid_5": 300,
+    "bid_10": 300,
+    "ask_5": 271,
+    "ask_10": 271,
+    "id": "196",
+    "symbol": "NXPC/USDC:USDC",
+    "baseName": "NXPC",
+    "spot": false,
+    "midPx": "0.69509",
+    "maxLeverage": "5",
+    "openInterest_mil": 2.883,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 0.433,
+    "asset": "NXPC"
+}

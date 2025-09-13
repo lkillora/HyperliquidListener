@@ -1,0 +1,17 @@
+{
+    "mid": 0.004375,
+    "bid_5": 88,
+    "bid_10": 88,
+    "ask_5": 98,
+    "ask_10": 98,
+    "id": "194",
+    "symbol": "DOOD/USDC:USDC",
+    "baseName": "DOOD",
+    "spot": false,
+    "midPx": "0.004281",
+    "maxLeverage": "3",
+    "openInterest_mil": 139.633,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 0.982,
+    "asset": "DOOD"
+}

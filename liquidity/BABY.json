@@ -1,0 +1,17 @@
+{
+    "mid": 0.051949999999999996,
+    "bid_5": 219,
+    "bid_10": 219,
+    "ask_5": 218,
+    "ask_10": 218,
+    "id": "189",
+    "symbol": "BABY/USDC:USDC",
+    "baseName": "BABY",
+    "spot": false,
+    "midPx": "0.051557",
+    "maxLeverage": "5",
+    "openInterest_mil": 20.328,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 0.252,
+    "asset": "BABY"
+}

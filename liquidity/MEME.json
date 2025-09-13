@@ -1,0 +1,17 @@
+{
+    "mid": 0.00274,
+    "bid_5": 600,
+    "bid_10": 600,
+    "ask_5": 573,
+    "ask_10": 573,
+    "id": "75",
+    "symbol": "MEME/USDC:USDC",
+    "baseName": "MEME",
+    "spot": false,
+    "midPx": "0.002741",
+    "maxLeverage": "5",
+    "openInterest_mil": 527.186,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 0.656,
+    "asset": "MEME"
+}

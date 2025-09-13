@@ -1,0 +1,17 @@
+{
+    "mid": 0.3525,
+    "bid_5": 1948,
+    "bid_10": 1948,
+    "ask_5": 3112,
+    "ask_10": 3112,
+    "id": "37",
+    "symbol": "TRX/USDC:USDC",
+    "baseName": "TRX",
+    "spot": false,
+    "midPx": "0.352095",
+    "maxLeverage": "10",
+    "openInterest_mil": 55.771,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 3.667,
+    "asset": "TRX"
+}

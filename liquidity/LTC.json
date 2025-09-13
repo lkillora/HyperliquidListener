@@ -1,0 +1,17 @@
+{
+    "mid": 118.5,
+    "bid_5": 26278,
+    "bid_10": 26278,
+    "ask_5": 23254,
+    "ask_10": 23254,
+    "id": "10",
+    "symbol": "LTC/USDC:USDC",
+    "baseName": "LTC",
+    "spot": false,
+    "midPx": "118.005",
+    "maxLeverage": "10",
+    "openInterest_mil": 0.654,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 47.297,
+    "asset": "LTC"
+}

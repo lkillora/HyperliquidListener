@@ -1,0 +1,17 @@
+{
+    "mid": 0.1865,
+    "bid_5": 823,
+    "bid_10": 823,
+    "ask_5": 771,
+    "ask_10": 771,
+    "id": "150",
+    "symbol": "MOODENG/USDC:USDC",
+    "baseName": "MOODENG",
+    "spot": false,
+    "midPx": "0.185085",
+    "maxLeverage": "5",
+    "openInterest_mil": 36.726,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 8.891,
+    "asset": "MOODENG"
+}

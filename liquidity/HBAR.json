@@ -1,0 +1,17 @@
+{
+    "mid": 0.2455,
+    "bid_5": 1028,
+    "bid_10": 1028,
+    "ask_5": 1289,
+    "ask_10": 1289,
+    "id": "127",
+    "symbol": "HBAR/USDC:USDC",
+    "baseName": "HBAR",
+    "spot": false,
+    "midPx": "0.245205",
+    "maxLeverage": "5",
+    "openInterest_mil": 72.307,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 2.947,
+    "asset": "HBAR"
+}

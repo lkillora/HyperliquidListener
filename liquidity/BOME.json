@@ -1,0 +1,17 @@
+{
+    "mid": 0.0022849999999999997,
+    "bid_5": 370,
+    "bid_10": 370,
+    "ask_5": 361,
+    "ask_10": 361,
+    "id": "120",
+    "symbol": "BOME/USDC:USDC",
+    "baseName": "BOME",
+    "spot": false,
+    "midPx": "0.002277",
+    "maxLeverage": "3",
+    "openInterest_mil": 301.745,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 0.416,
+    "asset": "BOME"
+}

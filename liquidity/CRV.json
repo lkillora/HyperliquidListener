@@ -1,0 +1,17 @@
+{
+    "mid": 0.8425,
+    "bid_5": 3126,
+    "bid_10": 3126,
+    "ask_5": 3576,
+    "ask_10": 3576,
+    "id": "16",
+    "symbol": "CRV/USDC:USDC",
+    "baseName": "CRV",
+    "spot": false,
+    "midPx": "0.84302",
+    "maxLeverage": "10",
+    "openInterest_mil": 51.765,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 15.721,
+    "asset": "CRV"
+}

@@ -1,0 +1,17 @@
+{
+    "mid": 0.1145,
+    "bid_5": 683,
+    "bid_10": 683,
+    "ask_5": 777,
+    "ask_10": 777,
+    "id": "149",
+    "symbol": "GOAT/USDC:USDC",
+    "baseName": "GOAT",
+    "spot": false,
+    "midPx": "0.11455",
+    "maxLeverage": "5",
+    "openInterest_mil": 26.982,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 4.826,
+    "asset": "GOAT"
+}

@@ -1,0 +1,17 @@
+{
+    "mid": 0.02305,
+    "bid_5": 1321,
+    "bid_10": 1321,
+    "ask_5": 898,
+    "ask_10": 898,
+    "id": "205",
+    "symbol": "LINEA/USDC:USDC",
+    "baseName": "LINEA",
+    "spot": false,
+    "midPx": "0.02301",
+    "maxLeverage": "3",
+    "openInterest_mil": 826.486,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 15.185,
+    "asset": "LINEA"
+}

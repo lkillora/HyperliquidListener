@@ -1,0 +1,17 @@
+{
+    "mid": 0.6445000000000001,
+    "bid_5": 163,
+    "bid_10": 163,
+    "ask_5": 161,
+    "ask_10": 161,
+    "id": "96",
+    "symbol": "ACE/USDC:USDC",
+    "baseName": "ACE",
+    "spot": false,
+    "midPx": "0.6444",
+    "maxLeverage": "3",
+    "openInterest_mil": 1.222,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 1.253,
+    "asset": "ACE"
+}

@@ -1,0 +1,17 @@
+{
+    "mid": 0.2735,
+    "bid_5": 33245,
+    "bid_10": 33245,
+    "ask_5": 25068,
+    "ask_10": 25068,
+    "id": "12",
+    "symbol": "DOGE/USDC:USDC",
+    "baseName": "DOGE",
+    "spot": false,
+    "midPx": "0.27381",
+    "maxLeverage": "10",
+    "openInterest_mil": 1090.944,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 203.476,
+    "asset": "DOGE"
+}

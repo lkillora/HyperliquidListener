@@ -1,0 +1,17 @@
+{
+    "mid": 0.07100000000000001,
+    "bid_5": 117,
+    "bid_10": 117,
+    "ask_5": 131,
+    "ask_10": 131,
+    "id": "97",
+    "symbol": "MAV/USDC:USDC",
+    "baseName": "MAV",
+    "spot": false,
+    "midPx": "0.070979",
+    "maxLeverage": "3",
+    "openInterest_mil": 3.832,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 0.321,
+    "asset": "MAV"
+}

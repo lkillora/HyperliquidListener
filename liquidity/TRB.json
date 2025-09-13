@@ -1,0 +1,17 @@
+{
+    "mid": 37.95,
+    "bid_5": 664,
+    "bid_10": 664,
+    "ask_5": 496,
+    "ask_10": 496,
+    "id": "50",
+    "symbol": "TRB/USDC:USDC",
+    "baseName": "TRB",
+    "spot": false,
+    "midPx": "37.9495",
+    "maxLeverage": "3",
+    "openInterest_mil": 0.031,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 3.301,
+    "asset": "TRB"
+}

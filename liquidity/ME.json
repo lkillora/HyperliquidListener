@@ -1,0 +1,17 @@
+{
+    "mid": 0.708,
+    "bid_5": 155,
+    "bid_10": 155,
+    "ask_5": 172,
+    "ask_10": 172,
+    "id": "160",
+    "symbol": "ME/USDC:USDC",
+    "baseName": "ME",
+    "spot": false,
+    "midPx": "0.70784",
+    "maxLeverage": "5",
+    "openInterest_mil": 5.95,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 0.488,
+    "asset": "ME"
+}

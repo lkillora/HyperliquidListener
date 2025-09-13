@@ -1,0 +1,17 @@
+{
+    "mid": 1.8450000000000002,
+    "bid_5": 4889,
+    "bid_10": 4889,
+    "ask_5": 5002,
+    "ask_10": 5002,
+    "id": "63",
+    "symbol": "TIA/USDC:USDC",
+    "baseName": "TIA",
+    "spot": false,
+    "midPx": "1.84865",
+    "maxLeverage": "10",
+    "openInterest_mil": 7.737,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 8.185,
+    "asset": "TIA"
+}

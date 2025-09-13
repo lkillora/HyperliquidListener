@@ -1,0 +1,17 @@
+{
+    "mid": 2.0300000000000002,
+    "bid_5": 570,
+    "bid_10": 570,
+    "ask_5": 546,
+    "ask_10": 546,
+    "id": "46",
+    "symbol": "ZRO/USDC:USDC",
+    "baseName": "ZRO",
+    "spot": false,
+    "midPx": "2.02945",
+    "maxLeverage": "5",
+    "openInterest_mil": 3.146,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 0.551,
+    "asset": "ZRO"
+}

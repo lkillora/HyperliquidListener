@@ -1,0 +1,17 @@
+{
+    "mid": 21.95,
+    "bid_5": 521,
+    "bid_10": 521,
+    "ask_5": 507,
+    "ask_10": 507,
+    "id": "102",
+    "symbol": "ETC/USDC:USDC",
+    "baseName": "ETC",
+    "spot": false,
+    "midPx": "21.9205",
+    "maxLeverage": "5",
+    "openInterest_mil": 0.13,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 0.543,
+    "asset": "ETC"
+}

@@ -1,0 +1,17 @@
+{
+    "mid": 0.7995000000000001,
+    "bid_5": 2235,
+    "bid_10": 2235,
+    "ask_5": 2288,
+    "ask_10": 2288,
+    "id": "9",
+    "symbol": "OP/USDC:USDC",
+    "baseName": "OP",
+    "spot": false,
+    "midPx": "0.7997",
+    "maxLeverage": "10",
+    "openInterest_mil": 7.715,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 1.935,
+    "asset": "OP"
+}

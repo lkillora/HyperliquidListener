@@ -1,0 +1,17 @@
+{
+    "mid": 1.475,
+    "bid_5": 1427,
+    "bid_10": 1427,
+    "ask_5": 1455,
+    "ask_10": 1455,
+    "id": "171",
+    "symbol": "SPX/USDC:USDC",
+    "baseName": "SPX",
+    "spot": false,
+    "midPx": "1.46765",
+    "maxLeverage": "5",
+    "openInterest_mil": 14.252,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 11.918,
+    "asset": "SPX"
+}

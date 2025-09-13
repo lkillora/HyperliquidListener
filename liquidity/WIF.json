@@ -1,0 +1,17 @@
+{
+    "mid": 0.9524999999999999,
+    "bid_5": 6875,
+    "bid_10": 6875,
+    "ask_5": 3981,
+    "ask_10": 3981,
+    "id": "98",
+    "symbol": "WIF/USDC:USDC",
+    "baseName": "WIF",
+    "spot": false,
+    "midPx": "0.95209",
+    "maxLeverage": "10",
+    "openInterest_mil": 24.455,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 9.864,
+    "asset": "WIF"
+}

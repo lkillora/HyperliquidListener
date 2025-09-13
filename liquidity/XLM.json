@@ -1,0 +1,17 @@
+{
+    "mid": 0.4035,
+    "bid_5": 1129,
+    "bid_10": 1129,
+    "ask_5": 1024,
+    "ask_10": 1024,
+    "id": "154",
+    "symbol": "XLM/USDC:USDC",
+    "baseName": "XLM",
+    "spot": false,
+    "midPx": "0.40353",
+    "maxLeverage": "5",
+    "openInterest_mil": 19.265,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 1.953,
+    "asset": "XLM"
+}

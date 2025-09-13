@@ -1,0 +1,17 @@
+{
+    "mid": 0.04455,
+    "bid_5": 338,
+    "bid_10": 338,
+    "ask_5": 324,
+    "ask_10": 324,
+    "id": "170",
+    "symbol": "GRIFFAIN/USDC:USDC",
+    "baseName": "GRIFFAIN",
+    "spot": false,
+    "midPx": "0.044446",
+    "maxLeverage": "5",
+    "openInterest_mil": 86.53,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 1.063,
+    "asset": "GRIFFAIN"
+}

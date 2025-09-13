@@ -1,0 +1,17 @@
+{
+    "mid": 0.192,
+    "bid_5": 451,
+    "bid_10": 451,
+    "ask_5": 378,
+    "ask_10": 378,
+    "id": "152",
+    "symbol": "PURR/USDC:USDC",
+    "baseName": "PURR",
+    "spot": false,
+    "midPx": "0.191325",
+    "maxLeverage": "3",
+    "openInterest_mil": 101.533,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 5.13,
+    "asset": "PURR"
+}

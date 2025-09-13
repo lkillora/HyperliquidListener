@@ -1,0 +1,17 @@
+{
+    "mid": 0.1365,
+    "bid_5": 249,
+    "bid_10": 249,
+    "ask_5": 327,
+    "ask_10": 327,
+    "id": "113",
+    "symbol": "STRK/USDC:USDC",
+    "baseName": "STRK",
+    "spot": false,
+    "midPx": "0.13595",
+    "maxLeverage": "5",
+    "openInterest_mil": 38.58,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 0.462,
+    "asset": "STRK"
+}

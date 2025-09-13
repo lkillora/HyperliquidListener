@@ -1,0 +1,17 @@
+{
+    "mid": 0.3185,
+    "bid_5": 189,
+    "bid_10": 189,
+    "ask_5": 186,
+    "ask_10": 186,
+    "id": "186",
+    "symbol": "NIL/USDC:USDC",
+    "baseName": "NIL",
+    "spot": false,
+    "midPx": "0.318225",
+    "maxLeverage": "3",
+    "openInterest_mil": 8.175,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 0.315,
+    "asset": "NIL"
+}

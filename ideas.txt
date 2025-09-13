@@ -1,0 +1,35 @@
+
+Scrape Hyperdash for every perp and HYPE spot -> gets positions and unrealized pnl and liquidation points
+
+Label traders based on S3 + Hyperdash to have an idea -> for non-losers and less active accs with meaningful size save their positions
+
+Alert if:
+Alert if twap size (adjusted to 30 mins if >30 mins in length) is greater than 5% liquidity on that asset and > $250k in notional size —> frontrun/check who it is
+Alert if twap size (adjusted to day or less) > the lowest OI of top 50 accs on that asset —> frontrun/check who it is
+Alert if position with liquidation within 15% of current price is greater than the 5% liquidity —> frontrun/hunt?
+(For positions which are more than the 5-10% liquidity mark) alert if some of this position is closed and notional > $100k -> frontrun/check who it is
+(For large HYPE holders who are underwater and have large positions with near liquidation levels relative to the liquidity of HYPE spot) alert if they start selling HYPE
+(For positions greater than 10% of liquidity) check orders to see if they have any market triggers that are greater than 5% liquidity
+Alert if account on net does >10% of volume and > $300k in a five minute period. Can filter for clips > 10% of 5% liquidity
+HYPE transfers >= $2m
+HYPE twaps >= $2m
+
+Check hyperdash every now and then to see if any informational positions open
+Aggregation would be nice to see big whales with sloppy execution and cant just big thresholds because
+Deposits/Withdrawals/Hyperunit movements are less informational and more noisy so leave for now
+
+Goals:
+Fetch positions for every coin using Hyperdash
+Fetch liquidity for every coin using Hyperliquid with Proxy
+Calculate 5% liquidity - can use linear estimate
+Calculate top 50 position
+Find positions with more than 5-10% liquidity mark
+Find large HYPE holders with problematic position relative to HYPE spot liquidity
+Check trigger market orders for massive positions (> 10% liquidity)
+Websocket with dynamic filters
+
+Just monitor it
+Don’t work on aggregation
+Don’t work on HYPE transfers yet (twaps should be captured by other process for now)
+Ask Chun to update Chainbot for HYPE for my changes and then add HYPE transfers
+

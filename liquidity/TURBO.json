@@ -1,0 +1,17 @@
+{
+    "mid": 0.004475,
+    "bid_5": 394,
+    "bid_10": 394,
+    "ask_5": 390,
+    "ask_10": 390,
+    "id": "133",
+    "symbol": "TURBO/USDC:USDC",
+    "baseName": "TURBO",
+    "spot": false,
+    "midPx": "0.004464",
+    "maxLeverage": "5",
+    "openInterest_mil": 391.794,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 0.471,
+    "asset": "TURBO"
+}

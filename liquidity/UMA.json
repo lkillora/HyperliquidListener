@@ -1,0 +1,17 @@
+{
+    "mid": 1.415,
+    "bid_5": 188,
+    "bid_10": 188,
+    "ask_5": 210,
+    "ask_10": 210,
+    "id": "105",
+    "symbol": "UMA/USDC:USDC",
+    "baseName": "UMA",
+    "spot": false,
+    "midPx": "1.4106",
+    "maxLeverage": "3",
+    "openInterest_mil": 0.392,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 0.775,
+    "asset": "UMA"
+}

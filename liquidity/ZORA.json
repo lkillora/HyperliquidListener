@@ -1,0 +1,17 @@
+{
+    "mid": 0.06525,
+    "bid_5": 436,
+    "bid_10": 436,
+    "ask_5": 320,
+    "ask_10": 320,
+    "id": "192",
+    "symbol": "ZORA/USDC:USDC",
+    "baseName": "ZORA",
+    "spot": false,
+    "midPx": "0.065056",
+    "maxLeverage": "3",
+    "openInterest_mil": 212.791,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 2.136,
+    "asset": "ZORA"
+}

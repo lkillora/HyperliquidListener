@@ -1,0 +1,17 @@
+{
+    "mid": 0.08595,
+    "bid_5": 248,
+    "bid_10": 248,
+    "ask_5": 130,
+    "ask_10": 130,
+    "id": "62",
+    "symbol": "BLUR/USDC:USDC",
+    "baseName": "BLUR",
+    "spot": false,
+    "midPx": "0.085908",
+    "maxLeverage": "5",
+    "openInterest_mil": 25.143,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 0.262,
+    "asset": "BLUR"
+}

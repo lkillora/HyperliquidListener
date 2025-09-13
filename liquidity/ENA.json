@@ -1,0 +1,17 @@
+{
+    "mid": 0.7775000000000001,
+    "bid_5": 11257,
+    "bid_10": 11257,
+    "ask_5": 11078,
+    "ask_10": 11078,
+    "id": "122",
+    "symbol": "ENA/USDC:USDC",
+    "baseName": "ENA",
+    "spot": false,
+    "midPx": "0.775925",
+    "maxLeverage": "10",
+    "openInterest_mil": 571.48,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 186.848,
+    "asset": "ENA"
+}

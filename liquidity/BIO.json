@@ -1,0 +1,17 @@
+{
+    "mid": 0.1525,
+    "bid_5": 706,
+    "bid_10": 706,
+    "ask_5": 699,
+    "ask_10": 699,
+    "id": "169",
+    "symbol": "BIO/USDC:USDC",
+    "baseName": "BIO",
+    "spot": false,
+    "midPx": "0.1524",
+    "maxLeverage": "5",
+    "openInterest_mil": 38.846,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 1.989,
+    "asset": "BIO"
+}

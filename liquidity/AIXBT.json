@@ -1,0 +1,17 @@
+{
+    "mid": 0.1225,
+    "bid_5": 498,
+    "bid_10": 498,
+    "ask_5": 511,
+    "ask_10": 511,
+    "id": "167",
+    "symbol": "AIXBT/USDC:USDC",
+    "baseName": "AIXBT",
+    "spot": false,
+    "midPx": "0.122585",
+    "maxLeverage": "5",
+    "openInterest_mil": 14.981,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 0.333,
+    "asset": "AIXBT"
+}

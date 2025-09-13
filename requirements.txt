@@ -1,0 +1,10 @@
+requests
+pandas
+ccxt
+web3
+boto3
+python-dotenv
+msgpack
+lz4
+playwright
+scrapingbee

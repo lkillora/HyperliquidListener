@@ -1,0 +1,17 @@
+{
+    "mid": 0.1875,
+    "bid_5": 540,
+    "bid_10": 540,
+    "ask_5": 540,
+    "ask_10": 540,
+    "id": "188",
+    "symbol": "PROMPT/USDC:USDC",
+    "baseName": "PROMPT",
+    "spot": false,
+    "midPx": "0.18687",
+    "maxLeverage": "5",
+    "openInterest_mil": 23.544,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 1.063,
+    "asset": "PROMPT"
+}

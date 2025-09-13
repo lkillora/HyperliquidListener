@@ -1,0 +1,17 @@
+{
+    "mid": 2.605,
+    "bid_5": 242,
+    "bid_10": 242,
+    "ask_5": 235,
+    "ask_10": 235,
+    "id": "99",
+    "symbol": "CAKE/USDC:USDC",
+    "baseName": "CAKE",
+    "spot": false,
+    "midPx": "2.60855",
+    "maxLeverage": "3",
+    "openInterest_mil": 0.617,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 0.439,
+    "asset": "CAKE"
+}

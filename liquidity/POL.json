@@ -1,0 +1,17 @@
+{
+    "mid": 0.2725,
+    "bid_5": 921,
+    "bid_10": 921,
+    "ask_5": 909,
+    "ask_10": 909,
+    "id": "142",
+    "symbol": "POL/USDC:USDC",
+    "baseName": "POL",
+    "spot": false,
+    "midPx": "0.27268",
+    "maxLeverage": "5",
+    "openInterest_mil": 20.939,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 1.55,
+    "asset": "POL"
+}

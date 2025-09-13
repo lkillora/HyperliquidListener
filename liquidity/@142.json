@@ -1,0 +1,17 @@
+{
+    "mid": 116500.0,
+    "bid_5": 6863,
+    "bid_10": 6863,
+    "ask_5": 6089,
+    "ask_10": 6089,
+    "id": "@142",
+    "symbol": "UBTC/USDC",
+    "baseName": "UBTC",
+    "spot": true,
+    "midPx": "116095.5",
+    "maxLeverage": null,
+    "openInterest_mil": NaN,
+    "totalSupplyMcap_bil": 2437.995,
+    "dayNtlVlm_mil": 489.996,
+    "asset": "@142"
+}

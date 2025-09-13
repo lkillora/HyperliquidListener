@@ -1,0 +1,17 @@
+{
+    "mid": 0.0298,
+    "bid_5": 164,
+    "bid_10": 164,
+    "ask_5": 149,
+    "ask_10": 149,
+    "id": "181",
+    "symbol": "TST/USDC:USDC",
+    "baseName": "TST",
+    "spot": false,
+    "midPx": "0.029397",
+    "maxLeverage": "3",
+    "openInterest_mil": 19.945,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 0.468,
+    "asset": "TST"
+}

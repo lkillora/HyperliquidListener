@@ -1,0 +1,17 @@
+{
+    "mid": 0.9015,
+    "bid_5": 6300,
+    "bid_10": 6300,
+    "ask_5": 5958,
+    "ask_10": 5958,
+    "id": "165",
+    "symbol": "FARTCOIN/USDC:USDC",
+    "baseName": "FARTCOIN",
+    "spot": false,
+    "midPx": "0.89851",
+    "maxLeverage": "10",
+    "openInterest_mil": 342.281,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 128.836,
+    "asset": "FARTCOIN"
+}

@@ -1,0 +1,17 @@
+{
+    "mid": 1.3250000000000002,
+    "bid_5": 471,
+    "bid_10": 471,
+    "ask_5": 324,
+    "ask_10": 324,
+    "id": "41",
+    "symbol": "RUNE/USDC:USDC",
+    "baseName": "RUNE",
+    "spot": false,
+    "midPx": "1.32135",
+    "maxLeverage": "5",
+    "openInterest_mil": 1.332,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 0.619,
+    "asset": "RUNE"
+}

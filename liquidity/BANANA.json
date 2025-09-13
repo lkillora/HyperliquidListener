@@ -1,0 +1,17 @@
+{
+    "mid": 22.15,
+    "bid_5": 186,
+    "bid_10": 186,
+    "ask_5": 197,
+    "ask_10": 197,
+    "id": "49",
+    "symbol": "BANANA/USDC:USDC",
+    "baseName": "BANANA",
+    "spot": false,
+    "midPx": "22.154",
+    "maxLeverage": "3",
+    "openInterest_mil": 0.038,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 0.683,
+    "asset": "BANANA"
+}

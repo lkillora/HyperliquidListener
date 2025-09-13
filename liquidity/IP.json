@@ -1,0 +1,17 @@
+{
+    "mid": 9.635000000000002,
+    "bid_5": 1059,
+    "bid_10": 1059,
+    "ask_5": 906,
+    "ask_10": 906,
+    "id": "183",
+    "symbol": "IP/USDC:USDC",
+    "baseName": "IP",
+    "spot": false,
+    "midPx": "9.64155",
+    "maxLeverage": "3",
+    "openInterest_mil": 5.01,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 7.859,
+    "asset": "IP"
+}

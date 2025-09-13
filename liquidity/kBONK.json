@@ -1,0 +1,17 @@
+{
+    "mid": 0.02555,
+    "bid_5": 7649,
+    "bid_10": 7649,
+    "ask_5": 7316,
+    "ask_10": 7316,
+    "id": "85",
+    "symbol": "KBONK/USDC:USDC",
+    "baseName": "kBONK",
+    "spot": false,
+    "midPx": "0.025571",
+    "maxLeverage": "10",
+    "openInterest_mil": 3127.496,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 48.716,
+    "asset": "kBONK"
+}

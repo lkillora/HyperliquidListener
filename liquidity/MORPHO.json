@@ -1,0 +1,17 @@
+{
+    "mid": 2.2,
+    "bid_5": 269,
+    "bid_10": 269,
+    "ask_5": 221,
+    "ask_10": 221,
+    "id": "173",
+    "symbol": "MORPHO/USDC:USDC",
+    "baseName": "MORPHO",
+    "spot": false,
+    "midPx": "2.19175",
+    "maxLeverage": "5",
+    "openInterest_mil": 3.467,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 1.764,
+    "asset": "MORPHO"
+}

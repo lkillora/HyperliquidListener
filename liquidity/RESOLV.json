@@ -1,0 +1,17 @@
+{
+    "mid": 0.1625,
+    "bid_5": 295,
+    "bid_10": 295,
+    "ask_5": 305,
+    "ask_10": 305,
+    "id": "198",
+    "symbol": "RESOLV/USDC:USDC",
+    "baseName": "RESOLV",
+    "spot": false,
+    "midPx": "0.162115",
+    "maxLeverage": "3",
+    "openInterest_mil": 25.591,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 0.321,
+    "asset": "RESOLV"
+}

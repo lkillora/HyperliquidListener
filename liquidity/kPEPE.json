@@ -1,0 +1,17 @@
+{
+    "mid": 0.01155,
+    "bid_5": 13120,
+    "bid_10": 13120,
+    "ask_5": 13474,
+    "ask_10": 13474,
+    "id": "15",
+    "symbol": "KPEPE/USDC:USDC",
+    "baseName": "kPEPE",
+    "spot": false,
+    "midPx": "0.011548",
+    "maxLeverage": "10",
+    "openInterest_mil": 11446.335,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 102.782,
+    "asset": "kPEPE"
+}

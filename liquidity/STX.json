@@ -1,0 +1,17 @@
+{
+    "mid": 0.6904999999999999,
+    "bid_5": 338,
+    "bid_10": 338,
+    "ask_5": 275,
+    "ask_10": 275,
+    "id": "19",
+    "symbol": "STX/USDC:USDC",
+    "baseName": "STX",
+    "spot": false,
+    "midPx": "0.69027",
+    "maxLeverage": "5",
+    "openInterest_mil": 2.697,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 0.824,
+    "asset": "STX"
+}

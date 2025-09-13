@@ -1,0 +1,17 @@
+{
+    "mid": 0.0801,
+    "bid_5": 343,
+    "bid_10": 343,
+    "ask_5": 329,
+    "ask_10": 329,
+    "id": "177",
+    "symbol": "VINE/USDC:USDC",
+    "baseName": "VINE",
+    "spot": false,
+    "midPx": "0.080008",
+    "maxLeverage": "5",
+    "openInterest_mil": 92.913,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 5.837,
+    "asset": "VINE"
+}

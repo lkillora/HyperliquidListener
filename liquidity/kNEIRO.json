@@ -1,0 +1,17 @@
+{
+    "mid": 0.397,
+    "bid_5": 237,
+    "bid_10": 237,
+    "ask_5": 217,
+    "ask_10": 217,
+    "id": "148",
+    "symbol": "KNEIRO/USDC:USDC",
+    "baseName": "kNEIRO",
+    "spot": false,
+    "midPx": "0.39579",
+    "maxLeverage": "5",
+    "openInterest_mil": 3.279,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 0.654,
+    "asset": "kNEIRO"
+}

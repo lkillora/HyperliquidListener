@@ -1,0 +1,17 @@
+{
+    "mid": 0.1225,
+    "bid_5": 786,
+    "bid_10": 786,
+    "ask_5": 719,
+    "ask_10": 719,
+    "id": "166",
+    "symbol": "AI16Z/USDC:USDC",
+    "baseName": "AI16Z",
+    "spot": false,
+    "midPx": "0.12167",
+    "maxLeverage": "5",
+    "openInterest_mil": 39.982,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 3.661,
+    "asset": "AI16Z"
+}

@@ -1,0 +1,17 @@
+{
+    "mid": 2.5549999999999998e-05,
+    "bid_5": 153,
+    "bid_10": 153,
+    "ask_5": 177,
+    "ask_10": 177,
+    "id": "@194",
+    "symbol": "UBONK/USDC",
+    "baseName": "UBONK",
+    "spot": true,
+    "midPx": "0.00002557",
+    "maxLeverage": null,
+    "openInterest_mil": NaN,
+    "totalSupplyMcap_bil": 2.272,
+    "dayNtlVlm_mil": 0.789,
+    "asset": "@194"
+}

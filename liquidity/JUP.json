@@ -1,0 +1,17 @@
+{
+    "mid": 0.5585,
+    "bid_5": 2008,
+    "bid_10": 2008,
+    "ask_5": 1968,
+    "ask_10": 1968,
+    "id": "90",
+    "symbol": "JUP/USDC:USDC",
+    "baseName": "JUP",
+    "spot": false,
+    "midPx": "0.55871",
+    "maxLeverage": "10",
+    "openInterest_mil": 32.559,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 6.232,
+    "asset": "JUP"
+}

@@ -1,0 +1,17 @@
+{
+    "mid": 0.2075,
+    "bid_5": 269,
+    "bid_10": 269,
+    "ask_5": 273,
+    "ask_10": 273,
+    "id": "36",
+    "symbol": "YGG/USDC:USDC",
+    "baseName": "YGG",
+    "spot": false,
+    "midPx": "0.207865",
+    "maxLeverage": "3",
+    "openInterest_mil": 2.429,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 6.329,
+    "asset": "YGG"
+}

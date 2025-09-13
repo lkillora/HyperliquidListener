@@ -1,0 +1,17 @@
+{
+    "mid": 0.09484999999999999,
+    "bid_5": 198,
+    "bid_10": 198,
+    "ask_5": 192,
+    "ask_10": 192,
+    "id": "111",
+    "symbol": "W/USDC:USDC",
+    "baseName": "W",
+    "spot": false,
+    "midPx": "0.09458",
+    "maxLeverage": "5",
+    "openInterest_mil": 52.527,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 1.027,
+    "asset": "W"
+}

@@ -1,0 +1,17 @@
+{
+    "mid": 1.005,
+    "bid_5": 444,
+    "bid_10": 444,
+    "ask_5": 54,
+    "ask_10": 54,
+    "id": "@205",
+    "symbol": "THBILL/USDC",
+    "baseName": "THBILL",
+    "spot": true,
+    "midPx": "1.0044",
+    "maxLeverage": null,
+    "openInterest_mil": NaN,
+    "totalSupplyMcap_bil": 185.408,
+    "dayNtlVlm_mil": 0.315,
+    "asset": "@205"
+}

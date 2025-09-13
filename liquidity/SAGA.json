@@ -1,0 +1,17 @@
+{
+    "mid": 0.2725,
+    "bid_5": 157,
+    "bid_10": 157,
+    "ask_5": 168,
+    "ask_10": 168,
+    "id": "125",
+    "symbol": "SAGA/USDC:USDC",
+    "baseName": "SAGA",
+    "spot": false,
+    "midPx": "0.27168",
+    "maxLeverage": "5",
+    "openInterest_mil": 3.761,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 0.259,
+    "asset": "SAGA"
+}

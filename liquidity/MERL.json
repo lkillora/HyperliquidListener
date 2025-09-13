@@ -1,0 +1,17 @@
+{
+    "mid": 0.1535,
+    "bid_5": 187,
+    "bid_10": 187,
+    "ask_5": 176,
+    "ask_10": 176,
+    "id": "126",
+    "symbol": "MERL/USDC:USDC",
+    "baseName": "MERL",
+    "spot": false,
+    "midPx": "0.15374",
+    "maxLeverage": "3",
+    "openInterest_mil": 11.822,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 0.348,
+    "asset": "MERL"
+}

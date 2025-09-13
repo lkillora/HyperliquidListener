@@ -1,0 +1,17 @@
+{
+    "mid": 0.4785,
+    "bid_5": 807,
+    "bid_10": 807,
+    "ask_5": 814,
+    "ask_10": 814,
+    "id": "199",
+    "symbol": "SYRUP/USDC:USDC",
+    "baseName": "SYRUP",
+    "spot": false,
+    "midPx": "0.477675",
+    "maxLeverage": "3",
+    "openInterest_mil": 11.606,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 2.143,
+    "asset": "SYRUP"
+}

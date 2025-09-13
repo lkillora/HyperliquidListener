@@ -1,0 +1,17 @@
+{
+    "mid": 3.215,
+    "bid_5": 4287,
+    "bid_10": 4287,
+    "ask_5": 4179,
+    "ask_10": 4179,
+    "id": "66",
+    "symbol": "TON/USDC:USDC",
+    "baseName": "TON",
+    "spot": false,
+    "midPx": "3.21675",
+    "maxLeverage": "10",
+    "openInterest_mil": 9.035,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 5.114,
+    "asset": "TON"
+}

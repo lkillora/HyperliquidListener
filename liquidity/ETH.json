@@ -1,0 +1,17 @@
+{
+    "mid": 4705.0,
+    "bid_5": 255443,
+    "bid_10": 255443,
+    "ask_5": 244369,
+    "ask_10": 244369,
+    "id": "1",
+    "symbol": "ETH/USDC:USDC",
+    "baseName": "ETH",
+    "spot": false,
+    "midPx": "4703.25",
+    "maxLeverage": "25",
+    "openInterest_mil": 0.672,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 3768.167,
+    "asset": "ETH"
+}

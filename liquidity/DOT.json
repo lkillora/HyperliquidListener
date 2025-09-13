@@ -1,0 +1,17 @@
+{
+    "mid": 4.3149999999999995,
+    "bid_5": 785,
+    "bid_10": 785,
+    "ask_5": 872,
+    "ask_10": 872,
+    "id": "48",
+    "symbol": "DOT/USDC:USDC",
+    "baseName": "DOT",
+    "spot": false,
+    "midPx": "4.3123",
+    "maxLeverage": "10",
+    "openInterest_mil": 1.462,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 1.862,
+    "asset": "DOT"
+}

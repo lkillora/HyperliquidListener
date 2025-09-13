@@ -1,0 +1,17 @@
+{
+    "mid": 1.6949999999999998,
+    "bid_5": 10244,
+    "bid_10": 10244,
+    "ask_5": 9897,
+    "ask_10": 9897,
+    "id": "31",
+    "symbol": "WLD/USDC:USDC",
+    "baseName": "WLD",
+    "spot": false,
+    "midPx": "1.69235",
+    "maxLeverage": "10",
+    "openInterest_mil": 44.924,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 59.944,
+    "asset": "WLD"
+}

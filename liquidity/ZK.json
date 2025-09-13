@@ -1,0 +1,17 @@
+{
+    "mid": 0.0628,
+    "bid_5": 284,
+    "bid_10": 284,
+    "ask_5": 236,
+    "ask_10": 236,
+    "id": "136",
+    "symbol": "ZK/USDC:USDC",
+    "baseName": "ZK",
+    "spot": false,
+    "midPx": "0.062712",
+    "maxLeverage": "5",
+    "openInterest_mil": 61.894,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 0.29,
+    "asset": "ZK"
+}

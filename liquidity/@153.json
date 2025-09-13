@@ -1,0 +1,17 @@
+{
+    "mid": 0.9924999999999999,
+    "bid_5": 1164,
+    "bid_10": 1164,
+    "ask_5": 754,
+    "ask_10": 754,
+    "id": "@153",
+    "symbol": "FEUSD/USDC",
+    "baseName": "FEUSD",
+    "spot": true,
+    "midPx": "0.992815",
+    "maxLeverage": null,
+    "openInterest_mil": NaN,
+    "totalSupplyMcap_bil": 8.823,
+    "dayNtlVlm_mil": 1.158,
+    "asset": "@153"
+}

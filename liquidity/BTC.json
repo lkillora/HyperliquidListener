@@ -1,0 +1,17 @@
+{
+    "mid": 116500.0,
+    "bid_5": 261558,
+    "bid_10": 261558,
+    "ask_5": 560601,
+    "ask_10": 560601,
+    "id": "0",
+    "symbol": "BTC/USDC:USDC",
+    "baseName": "BTC",
+    "spot": false,
+    "midPx": "116003.5",
+    "maxLeverage": "40",
+    "openInterest_mil": 0.033,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 2847.829,
+    "asset": "BTC"
+}

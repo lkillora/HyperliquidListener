@@ -1,0 +1,17 @@
+{
+    "mid": 1.105,
+    "bid_5": 6756,
+    "bid_10": 6756,
+    "ask_5": 4339,
+    "ask_10": 4339,
+    "id": "106",
+    "symbol": "ONDO/USDC:USDC",
+    "baseName": "ONDO",
+    "spot": false,
+    "midPx": "1.10625",
+    "maxLeverage": "10",
+    "openInterest_mil": 30.677,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 27.504,
+    "asset": "ONDO"
+}

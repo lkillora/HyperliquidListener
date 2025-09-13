@@ -1,0 +1,17 @@
+{
+    "mid": 362.5,
+    "bid_5": 2204,
+    "bid_10": 2204,
+    "ask_5": 1418,
+    "ask_10": 1418,
+    "id": "116",
+    "symbol": "TAO/USDC:USDC",
+    "baseName": "TAO",
+    "spot": false,
+    "midPx": "362.23",
+    "maxLeverage": "5",
+    "openInterest_mil": 0.077,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 5.434,
+    "asset": "TAO"
+}

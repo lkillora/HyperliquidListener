@@ -1,0 +1,17 @@
+{
+    "mid": 0.1765,
+    "bid_5": 801,
+    "bid_10": 801,
+    "ask_5": 839,
+    "ask_10": 839,
+    "id": "81",
+    "symbol": "PYTH/USDC:USDC",
+    "baseName": "PYTH",
+    "spot": false,
+    "midPx": "0.1762",
+    "maxLeverage": "5",
+    "openInterest_mil": 31.097,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 4.301,
+    "asset": "PYTH"
+}

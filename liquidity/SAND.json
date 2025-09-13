@@ -1,0 +1,17 @@
+{
+    "mid": 0.3145,
+    "bid_5": 260,
+    "bid_10": 260,
+    "ask_5": 248,
+    "ask_10": 248,
+    "id": "156",
+    "symbol": "SAND/USDC:USDC",
+    "baseName": "SAND",
+    "spot": false,
+    "midPx": "0.314045",
+    "maxLeverage": "5",
+    "openInterest_mil": 3.178,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 0.43,
+    "asset": "SAND"
+}

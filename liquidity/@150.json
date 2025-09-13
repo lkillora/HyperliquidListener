@@ -1,0 +1,17 @@
+{
+    "mid": 1.005,
+    "bid_5": 1716,
+    "bid_10": 1716,
+    "ask_5": 853,
+    "ask_10": 853,
+    "id": "@150",
+    "symbol": "USDE/USDC",
+    "baseName": "USDE",
+    "spot": true,
+    "midPx": "1.00125",
+    "maxLeverage": null,
+    "openInterest_mil": NaN,
+    "totalSupplyMcap_bil": 100.11,
+    "dayNtlVlm_mil": 1.083,
+    "asset": "@150"
+}

@@ -1,0 +1,17 @@
+{
+    "mid": 4.745,
+    "bid_5": 377,
+    "bid_10": 377,
+    "ask_5": 430,
+    "ask_10": 430,
+    "id": "2",
+    "symbol": "ATOM/USDC:USDC",
+    "baseName": "ATOM",
+    "spot": false,
+    "midPx": "4.7451",
+    "maxLeverage": "5",
+    "openInterest_mil": 1.29,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 0.855,
+    "asset": "ATOM"
+}

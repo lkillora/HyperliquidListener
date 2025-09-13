@@ -1,0 +1,17 @@
+{
+    "mid": 0.05365,
+    "bid_5": 474,
+    "bid_10": 474,
+    "ask_5": 521,
+    "ask_10": 521,
+    "id": "134",
+    "symbol": "BRETT/USDC:USDC",
+    "baseName": "BRETT",
+    "spot": false,
+    "midPx": "0.053532",
+    "maxLeverage": "5",
+    "openInterest_mil": 70.362,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 1.939,
+    "asset": "BRETT"
+}

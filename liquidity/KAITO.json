@@ -1,0 +1,17 @@
+{
+    "mid": 1.2349999999999999,
+    "bid_5": 698,
+    "bid_10": 698,
+    "ask_5": 873,
+    "ask_10": 873,
+    "id": "185",
+    "symbol": "KAITO/USDC:USDC",
+    "baseName": "KAITO",
+    "spot": false,
+    "midPx": "1.23345",
+    "maxLeverage": "5",
+    "openInterest_mil": 4.825,
+    "totalSupplyMcap_bil": NaN,
+    "dayNtlVlm_mil": 4.148,
+    "asset": "KAITO"
+}
