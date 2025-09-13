@@ -4,6 +4,7 @@ import pandas as pd
 import ccxt
 import logging
 from pushover import send_pushover_alert
+from glob import glob
 
 spot_assets = {
     "@107": "HYPE/USDC",
@@ -73,6 +74,16 @@ def fetch_assets():
     return assets
 
 
+def refresh_liquidity():
+    liq_files = glob('./liquidity/*.json')
+    all_liquidity = []
+    for f in liq_files:
+        with open(f, 'r') as file:
+            all_liquidity.append(json.load(file))
+    all_liquidity = pd.DataFrame(all_liquidity)
+    all_liquidity.to_csv('./key_stats/all_liquidity.csv', index=False)
+
+
 def fetch_liquidity():
     logging.basicConfig(
         filename='./logs/liquidity.log',
@@ -103,7 +114,7 @@ def fetch_liquidity():
             all_liquidity.append(liquidity)
             with open(f'./liquidity/{asset}.json', 'w') as f:
                 json.dump(liquidity, f, indent=4)
-            time.sleep(1)
+            time.sleep(2.5)
         all_liquidity = pd.DataFrame(all_liquidity)
         all_liquidity.to_csv(f'./key_stats/all_liquidity.csv', index=False)
 

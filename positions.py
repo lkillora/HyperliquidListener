@@ -64,6 +64,7 @@ def fetch_assets():
             assets.append(asset)
     assets = pd.DataFrame(assets)
     assets['asset'] = assets.apply(lambda row: row['baseName'] if not row['spot'] else row['id'], axis=1)
+    assets = assets[~assets['asset'].str.contains('PURR')].reset_index(drop=True)
     assets.to_csv('./key_stats/assets.csv', index=False)
     return assets
 

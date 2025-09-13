@@ -5,6 +5,7 @@ import os
 from pushover import send_pushover_alert
 import logging
 
+
 def summarise():
     position_files = glob('./positions/*.json')
     liquidity_files = glob('./liquidity/*.json')
