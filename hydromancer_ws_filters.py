@@ -90,8 +90,8 @@ async def filter_message(data):
             if notional_check:
                 notional_30min = notional * min(1, 30 / minutes)
                 liq_check = notional_30min/1e3 > stats['liq_threshold']
-                oi_check = False if stats['spot'] else notional/1e6 > stats['oi_threshold']*0.05
-                vol_check = False if not stats['spot'] else notional/1e6 > stats['dv_threshold']*0.05
+                oi_check = False if stats['spot'] else notional/1e6 > stats['oi_threshold']*0.1
+                vol_check = False if not stats['spot'] else notional/1e6 > stats['dv_threshold']*0.1
                 u['notional'] = notional
                 u['notional_30min'] = notional_30min
                 u['mid'] = mid
@@ -99,8 +99,8 @@ async def filter_message(data):
                 u['oi'] = stats['oi_threshold']
                 u['dv'] = stats['dv_threshold']
                 u['liq_check'] = liq_check
-                u['oi_check'] = oi_check
-                u['vol_check'] = vol_check
+                u['oi_check'] = notional/1e6 > stats['oi_threshold']*0.1
+                u['vol_check'] = notional/1e6 > stats['dv_threshold']*0.1
                 if liq_check or oi_check or vol_check:
                     asyncio.create_task(async_send_pushover_alert(u, priority=1))
 
