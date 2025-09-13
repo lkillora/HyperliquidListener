@@ -80,8 +80,10 @@ async def filter_message(data):
     for u in updates:
         coin = u['coin']
         if coin in thresholds and coin in prices:
-            stats = thresholds[coin]
-            mid = prices[coin]
+            async with thresholds_lock:
+                stats = thresholds.get(coin)
+            async with prices_lock:
+                mid = prices.get(coin)
             minutes = float(u['minutes'])
             notional = float(u['sz']) * mid
             notional_check = notional > 250_000
@@ -112,12 +114,16 @@ async def listen(ws):
             await append_jsonl("my_events.jsonl", data)
             await filter_message(data)
 
-        except websockets.ConnectionClosed:
-            print("Connection closed, reconnecting...")
-            raise
+        except websockets.ConnectionClosedOK:
+            print("Connection closed normally. Reconnecting...")
+            break
+        except websockets.ConnectionClosedError as e:
+            print(f"Connection closed due to error or pong timeout: {e}. Reconnecting...")
+            break
         except Exception as e:
             print(f"Unexpected error: {e}")
-
+            # Optionally wait a bit before continuing
+            await asyncio.sleep(1)
 
 async def connect():
     while True:
