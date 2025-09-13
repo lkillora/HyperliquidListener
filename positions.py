@@ -71,6 +71,8 @@ def fetch_assets():
 
 def scrape_hyperdash_with_scraping_bee_sdk(symbol='XPL'):
     if '@' in symbol:
+        if symbol not in spot_assets:
+            return {}
         ticker = spot_assets[symbol].replace('/USDC', '')
         hyperdash_url = f"https://hyperdash.info/api/hyperdash/full/spot_overview?symbol={ticker}"
     else:
