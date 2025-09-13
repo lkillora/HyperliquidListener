@@ -32,7 +32,7 @@ async def load_thresholds(filepath="./key_stats/all_liquidity.csv"):
         async with thresholds_lock:
             thresholds.clear()
             thresholds.update(new_thresholds)
-        print(f"Loaded thresholds: {thresholds}")
+        print(f"Loaded thresholds")
     except FileNotFoundError:
         print(f"{filepath} not found. Skipping...")
     except Exception as e:
@@ -49,7 +49,7 @@ async def load_prices(filepath="./key_stats/prices.csv"):
         async with prices_lock:
             prices.clear()
             prices.update(new_prices)
-        print(f"Loaded prices: {prices}")
+        print(f"Loaded prices")
     except FileNotFoundError:
         print(f"{filepath} not found. Skipping...")
     except Exception as e:
