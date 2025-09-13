@@ -59,6 +59,7 @@ def summarise():
                 liq_size_check = position['size_over_liq5'] > 1
                 liq_distance_check = position['distance'] < 0.15 if position['distance'] is not None else False
                 pos_size_check = position['size_over_liq10'] > 2
+                pos_distance_check = position['distance'] < 0.2 if position['distance'] is not None else False
                 hype_distance_check = position['distance'] < 0.2 if position['distance'] is not None else False
                 if acc in top_hype_holders_upnl and hype_distance_check:
                     top_hype_holders_upnl[acc] += position['unrealized_pnl']
@@ -66,7 +67,7 @@ def summarise():
                     liquidation_risks.append(position)
                     message = f'LIQ RISK: {position}'
                     send_pushover_alert(message, priority=1)
-                if pos_size_check:
+                if pos_size_check and pos_distance_check:
                     large_positions.append(position)
                     message = f'POS RISK: {position}'
                     send_pushover_alert(message, priority=1)

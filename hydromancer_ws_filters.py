@@ -9,7 +9,7 @@ from pushover import async_send_pushover_alert
 load_dotenv('.env', override=True)
 api_key = os.environ.get('HYDROMANCER_API_KEY')
 HYDROMANCER_WS_URL = f"wss://api.hydromancer.xyz/ws?token={api_key}"
-RECONNECT_DELAY = 5  # seconds
+RECONNECT_DELAY = 5
 
 thresholds = {}
 thresholds_lock = asyncio.Lock()
@@ -100,19 +100,11 @@ async def filter_message(data):
 async def listen(ws):
     while True:
         try:
-            message = await asyncio.wait_for(ws.recv(), timeout=60)
+            message = await ws.recv()  # No timeout; ping handled automatically
             data = json.loads(message)
             print(data)
             await filter_message(data)
 
-        except asyncio.TimeoutError:
-            print("No message in 60s, sending ping...")
-            try:
-                pong_waiter = await ws.ping()
-                await asyncio.wait_for(pong_waiter, timeout=10)
-            except Exception:
-                print("Ping failed, reconnecting...")
-                raise
         except websockets.ConnectionClosed:
             print("Connection closed, reconnecting...")
             raise
@@ -123,7 +115,11 @@ async def listen(ws):
 async def connect():
     while True:
         try:
-            async with websockets.connect(HYDROMANCER_WS_URL) as ws:
+            async with websockets.connect(
+                HYDROMANCER_WS_URL,
+                ping_interval=30,  # automatically ping every 30s
+                ping_timeout=10    # wait up to 10s for pong
+            ) as ws:
                 print("Connected to Hydromancer WebSocket.")
 
                 subscribe_message = {
@@ -140,10 +136,9 @@ async def connect():
 
 
 async def main():
-    # Run WebSocket listener and CSV watcher concurrently
     await asyncio.gather(
         connect(),
-        watch_thresholds("./key_stats/all_liquidity.csv", interval=60*30),
+        watch_thresholds("./key_stats/all_liquidity.csv", interval=1800),
         watch_prices("./key_stats/prices.csv", interval=60)
     )
 

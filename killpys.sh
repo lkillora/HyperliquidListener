@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # List of Python script names to search for (you can add more names to this list)
-script_names=("liquidity.py" "positions.py" "summary_stats.py" "prices.py")
+script_names=("liquidity.py" "positions.py" "summary_stats.py" "prices.py" "hydromancer_ws_filters.py")
 
 # Loop through each script name and kill the processes
 for script_name in "${script_names[@]}"; do
