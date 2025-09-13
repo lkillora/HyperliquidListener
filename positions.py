@@ -95,7 +95,10 @@ def fetch_positions():
             asset = row['asset']
             logging.info(f'Fetching positions for {asset}')
             positions = scrape_hyperdash_with_scraping_bee_sdk(asset)
-            logging.info(f'Fetched {len(positions['positions'])} positions for {asset}')
+            if 'positions' in positions:
+                logging.info(f'Fetched {len(positions['positions'])} positions for {asset}')
+            else:
+                logging.info(f'Fetched 0 positions for {asset}')
             time.sleep(10)
     except Exception as e:
         msg = f'Positions call failed because {e}'
