@@ -62,7 +62,7 @@ def fetch_assets():
                 'spot': m['spot'],
                 'midPx': m['info']['midPx'],
                 'maxLeverage': m['info']['maxLeverage'] if not m['spot'] else None,
-                'openInterest_mil': round(float(m['info']['openInterest'])/1e6, 3) if not m['spot'] else None,
+                'openInterest_mil': round(float(m['info']['openInterest'])*float(m['info']['midPx'])/1e6, 3) if not m['spot'] else None,
                 'totalSupplyMcap_bil': round(float(m['info']['totalSupply']) * float(m['info']['markPx'])/1e9, 3) if m['spot'] else None,
                 'dayNtlVlm_mil': round(float(m['info']['dayNtlVlm'])/1e6, 3)
             }
