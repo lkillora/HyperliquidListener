@@ -130,8 +130,8 @@ async def connect():
         try:
             async with websockets.connect(
                 HYDROMANCER_WS_URL,
-                ping_interval=30,  # automatically ping every 30s
-                ping_timeout=10    # wait up to 10s for pong
+                ping_interval=None,
+                ping_timeout=None
             ) as ws:
                 print("Connected to Hydromancer WebSocket.")
 
