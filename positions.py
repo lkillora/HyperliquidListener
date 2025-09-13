@@ -89,6 +89,7 @@ def fetch_positions():
         level=logging.INFO,
         format='%(asctime)s - %(levelname)s - %(message)s'
     )
+    asset = 'PLACEHOLDER'
     try:
         assets = fetch_assets()
         logging.info(f'Fetched {assets.shape[0]} assets')
@@ -102,7 +103,7 @@ def fetch_positions():
                 logging.info(f'Fetched 0 positions for {asset}')
             time.sleep(10)
     except Exception as e:
-        msg = f'Positions call failed because {e}'
+        msg = f'Positions call failed for {asset} because of {e}'
         logging.error(msg)
         send_pushover_alert(msg, priority=-1)
         time.sleep(60)

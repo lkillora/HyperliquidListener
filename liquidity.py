@@ -90,6 +90,7 @@ def fetch_liquidity():
         level=logging.INFO,
         format='%(asctime)s - %(levelname)s - %(message)s'
     )
+    asset = 'PLACEHOLDER'
     try:
         assets = fetch_assets()
         logging.info(f'Fetched {assets.shape[0]} assets')
@@ -119,7 +120,7 @@ def fetch_liquidity():
         all_liquidity.to_csv(f'./key_stats/all_liquidity.csv', index=False)
 
     except Exception as e:
-        msg = f'Liquidity call failed because {e}'
+        msg = f'Liquidity call failed on {asset} because of {e}'
         logging.error(msg)
         send_pushover_alert(msg, priority=-1)
         time.sleep(60)
