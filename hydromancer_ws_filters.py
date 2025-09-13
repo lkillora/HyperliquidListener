@@ -30,8 +30,8 @@ async def load_thresholds(filepath="./key_stats/all_liquidity.csv"):
             row["asset"]: {
                 "spot": row['spot'],
                 "liq_threshold": min(row["bid_5"], row["ask_5"]),
-                "oi_threshold": row["openInterest_mil"] * 0.02 if row["openInterest_mil"] is not None else 0,
-                'dv_threshold': row['dayNtlVlm_mil'] * 0.02
+                "oi_threshold": row["openInterest_mil"] if row["openInterest_mil"] is not None else 0,
+                'dv_threshold': row['dayNtlVlm_mil']
             }
             for _, row in df.iterrows()
         }
@@ -90,8 +90,8 @@ async def filter_message(data):
             if notional_check:
                 notional_30min = notional * min(1, 30 / minutes)
                 liq_check = notional_30min/1e3 > stats['liq_threshold']
-                oi_check = False if stats['spot'] else notional/1e6 > stats['oi_threshold']*0.1
-                vol_check = False if not stats['spot'] else notional/1e6 > stats['dv_threshold']*0.1
+                oi_check = False if stats['spot'] else notional/1e6 > stats['oi_threshold']*0.03
+                vol_check = False if not stats['spot'] else notional/1e6 > stats['dv_threshold']*0.03
                 u['notional'] = notional
                 u['notional_30min'] = notional_30min
                 u['mid'] = mid
