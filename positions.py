@@ -94,14 +94,20 @@ def fetch_positions():
         assets = fetch_assets()
         logging.info(f'Fetched {assets.shape[0]} assets')
         for i, row in assets.iterrows():
-            asset = row['asset']
-            logging.info(f'Fetching positions for {asset}')
-            positions = scrape_hyperdash_with_scraping_bee_sdk(asset)
-            if 'positions' in positions:
-                logging.info(f'Fetched {len(positions['positions'])} positions for {asset}')
-            else:
-                logging.info(f'Fetched 0 positions for {asset}')
-            time.sleep(10)
+            try:
+                asset = row['asset']
+                logging.info(f'Fetching positions for {asset}')
+                positions = scrape_hyperdash_with_scraping_bee_sdk(asset)
+                if 'positions' in positions:
+                    logging.info(f'Fetched {len(positions['positions'])} positions for {asset}')
+                else:
+                    logging.info(f'Fetched 0 positions for {asset}')
+                time.sleep(10)
+            except Exception as e:
+                msg = f'Positions call failed for {asset} because of {e}'
+                logging.error(msg)
+                send_pushover_alert(msg, priority=-1)
+                time.sleep(60)
     except Exception as e:
         msg = f'Positions call failed for {asset} because of {e}'
         logging.error(msg)

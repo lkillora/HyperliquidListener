@@ -96,26 +96,33 @@ def fetch_liquidity():
         logging.info(f'Fetched {assets.shape[0]} assets')
         all_liquidity = []
         for i, row in assets.iterrows():
-            symbol = row['symbol']
-            asset = row['asset']
-            logging.info(f'Fetching orderbook for {asset} or {symbol}')
-            order_book = exchange.fetch_order_book(symbol, limit=None, params={"nSigFigs": 3})
-            logging.info(f'Orderbook with {len(order_book['bids'])} levels for {symbol}')
-            bids = pd.DataFrame(order_book['bids'], columns=['px', 'sz'])
-            asks = pd.DataFrame(order_book['asks'], columns=['px', 'sz'])
-            mid = float(bids.iloc[0]['px'] + asks.iloc[0]['px'])*0.5
-            liquidity = {
-                'mid': mid,
-                'bid_5': estimate_liq(bids, mid, threshold=0.05, is_bid=True),
-                'bid_10': estimate_liq(bids, mid, threshold=0.05, is_bid=True),
-                'ask_5': estimate_liq(asks, mid, threshold=0.1, is_bid=False),
-                'ask_10': estimate_liq(asks, mid, threshold=0.1, is_bid=False),
-            }
-            liquidity.update(row)
-            all_liquidity.append(liquidity)
-            with open(f'./liquidity/{asset}.json', 'w') as f:
-                json.dump(liquidity, f, indent=4)
-            time.sleep(2.5)
+            try:
+                symbol = row['symbol']
+                asset = row['asset']
+                logging.info(f'Fetching orderbook for {asset} or {symbol}')
+                order_book = exchange.fetch_order_book(symbol, limit=None, params={"nSigFigs": 3})
+                logging.info(f'Orderbook with {len(order_book['bids'])} levels for {symbol}')
+                bids = pd.DataFrame(order_book['bids'], columns=['px', 'sz'])
+                asks = pd.DataFrame(order_book['asks'], columns=['px', 'sz'])
+                mid = float(bids.iloc[0]['px'] + asks.iloc[0]['px'])*0.5
+                liquidity = {
+                    'mid': mid,
+                    'bid_5': estimate_liq(bids, mid, threshold=0.05, is_bid=True),
+                    'bid_10': estimate_liq(bids, mid, threshold=0.05, is_bid=True),
+                    'ask_5': estimate_liq(asks, mid, threshold=0.1, is_bid=False),
+                    'ask_10': estimate_liq(asks, mid, threshold=0.1, is_bid=False),
+                }
+                liquidity.update(row)
+                all_liquidity.append(liquidity)
+                with open(f'./liquidity/{asset}.json', 'w') as f:
+                    json.dump(liquidity, f, indent=4)
+                time.sleep(2.5)
+
+            except Exception as e:
+                msg = f'Liquidity call failed on {asset} because of {e}'
+                logging.error(msg)
+                send_pushover_alert(msg, priority=-1)
+                time.sleep(60)
         all_liquidity = pd.DataFrame(all_liquidity)
         all_liquidity.to_csv(f'./key_stats/all_liquidity.csv', index=False)
 
