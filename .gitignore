@@ -1,7 +1,8 @@
+*.csv
+*.jsonl
 .env
 /.venv
 /data
-*.csv
 /positions
 /liquidity
 /liquidation_risks

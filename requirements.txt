@@ -8,3 +8,4 @@ msgpack
 lz4
 playwright
 scrapingbee
+aiologger

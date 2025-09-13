@@ -5,6 +5,7 @@ import os
 import pandas as pd
 from dotenv import load_dotenv
 from pushover import async_send_pushover_alert
+import aiofiles
 
 load_dotenv('.env', override=True)
 api_key = os.environ.get('HYDROMANCER_API_KEY')
@@ -15,6 +16,11 @@ thresholds = {}
 thresholds_lock = asyncio.Lock()
 prices = {}
 prices_lock = asyncio.Lock()
+
+
+async def append_jsonl(filepath, data):
+    async with aiofiles.open(filepath, mode='a', encoding='utf-8') as f:
+        await f.write(json.dumps(data, ensure_ascii=False) + '\n')
 
 
 async def load_thresholds(filepath="./key_stats/all_liquidity.csv"):
@@ -101,8 +107,9 @@ async def listen(ws):
     while True:
         try:
             message = await ws.recv()  # No timeout; ping handled automatically
+            print(message)
             data = json.loads(message)
-            print(data)
+            await append_jsonl("my_events.jsonl", data)
             await filter_message(data)
 
         except websockets.ConnectionClosed:
