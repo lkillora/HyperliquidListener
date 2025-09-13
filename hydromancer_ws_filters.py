@@ -90,8 +90,8 @@ async def filter_message(data):
             if notional_check:
                 notional_30min = notional * min(1, 30 / minutes)
                 liq_check = notional_30min/1e3 > stats['liq_threshold']
-                oi_check = False if stats['spot'] else notional/1e6 > stats['oi_threshold']*0.01
-                vol_check = False if not stats['spot'] else notional/1e6 > stats['dv_threshold']*0.01
+                oi_check = False if stats['spot'] else notional/1e6 > stats['oi_threshold']*0.05
+                vol_check = False if not stats['spot'] else notional/1e6 > stats['dv_threshold']*0.05
                 u['notional'] = notional
                 u['notional_30min'] = notional_30min
                 u['mid'] = mid
