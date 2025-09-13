@@ -1,13 +1,12 @@
+import logging
 import time
-
-import requests
 import json
 import os
 from dotenv import load_dotenv
 from scrapingbee import ScrapingBeeClient
 import pandas as pd
 import ccxt
-
+from pushover import send_pushover_alert
 
 load_dotenv('.env', override=True)
 scraping_bee_api_key = os.environ.get('SCRAPING_BEE_API_KEY')
@@ -65,22 +64,47 @@ def fetch_assets():
             assets.append(asset)
     assets = pd.DataFrame(assets)
     assets['asset'] = assets.apply(lambda row: row['baseName'] if not row['spot'] else row['id'], axis=1)
-    assets.to_csv('./assets.csv', index=False)
+    assets.to_csv('./key_stats/assets.csv', index=False)
     return assets
 
 
 def scrape_hyperdash_with_scraping_bee_sdk(symbol='XPL'):
-    hyperdash_url = f"https://hyperdash.info/api/hyperdash/full/ticker_overview?symbol={symbol}"
+    if '@' in symbol:
+        ticker = spot_assets[symbol].replace('/USDC', '')
+        hyperdash_url = f"https://hyperdash.info/api/hyperdash/full/spot_overview?symbol={ticker}"
+    else:
+        hyperdash_url = f"https://hyperdash.info/api/hyperdash/full/ticker_overview?symbol={symbol}"
     client = ScrapingBeeClient(api_key=scraping_bee_api_key)
     response = client.get(hyperdash_url, headers=headers)
     data = json.loads(response.content)
     with open(f'./positions/{symbol}.json', "w") as f:
         json.dump(data, f, indent=4)
+    return data
 
 
 def fetch_positions():
-    assets = fetch_assets()
-    for i, row in assets.iterrows():
-        asset = row['asset']
-        scrape_hyperdash_with_scraping_bee_sdk(asset)
-        time.sleep(1)
+    logging.basicConfig(
+        filename='./logs/positions.log',
+        level=logging.INFO,
+        format='%(asctime)s - %(levelname)s - %(message)s'
+    )
+    try:
+        assets = fetch_assets()
+        logging.info(f'Fetched {assets.shape[0]} assets')
+        for i, row in assets.iterrows():
+            asset = row['asset']
+            logging.info(f'Fetching positions for {asset}')
+            positions = scrape_hyperdash_with_scraping_bee_sdk(asset)
+            logging.info(f'Fetched {len(positions['positions'])} positions for {asset}')
+            time.sleep(10)
+    except Exception as e:
+        msg = f'Positions call failed because {e}'
+        logging.error(msg)
+        send_pushover_alert(msg, priority=-1)
+        time.sleep(60)
+
+
+if __name__ == '__main__':
+    while True:
+        fetch_positions()
+

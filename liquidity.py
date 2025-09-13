@@ -1,22 +1,9 @@
 import time
-import requests
 import json
-import os
-from dotenv import load_dotenv
-from scrapingbee import ScrapingBeeClient
 import pandas as pd
 import ccxt
-
-load_dotenv('.env', override=True)
-scraping_bee_api_key = os.environ.get('SCRAPING_BEE_API_KEY')
-exchange = ccxt.hyperliquid()
-
-def convert_to_asset(row):
-    if not row['spot']:
-        return row['baseName']
-    if row['id'] == 'PURR/USDC':
-        return 'PURR'
-    return row['id']
+import logging
+from pushover import send_pushover_alert
 
 spot_assets = {
     "@107": "HYPE/USDC",
@@ -26,6 +13,16 @@ spot_assets = {
     "@184": "HPENGU/USDC",
     "@188": "UPUMP/USDC"
 }
+
+exchange = ccxt.hyperliquid()
+
+
+def convert_to_asset(row):
+    if not row['spot']:
+        return row['baseName']
+    if row['id'] == 'PURR/USDC':
+        return 'PURR'
+    return row['id']
 
 
 def estimate_liq(bins, mid, threshold=0.05, is_bid=True):
@@ -72,28 +69,53 @@ def fetch_assets():
     assets = pd.DataFrame(assets)
     assets = assets[assets['baseName'] != 'PURR'].reset_index(drop=True)
     assets['asset'] = assets.apply(lambda row: convert_to_asset(row), axis=1)
-    assets.to_csv('./assets.csv', index=False)
+    assets.to_csv('./key_stats/assets.csv', index=False)
     return assets
 
 
 def fetch_liquidity():
-    assets = fetch_assets()
-    for i, row in assets.iterrows():
-        symbol = row['symbol']
-        asset = row['asset']
-        order_book = exchange.fetch_order_book(symbol, limit=None, params={"nSigFigs": 3})
-        bids = pd.DataFrame(order_book['bids'], columns=['px', 'sz'])
-        asks = pd.DataFrame(order_book['asks'], columns=['px', 'sz'])
-        mid = float(bids.iloc[0]['px'] + asks.iloc[0]['px'])*0.5
-        liquidity = {
-            'mid': mid,
-            'bid_5': estimate_liq(bids, mid, threshold=0.05, is_bid=True),
-            'bid_10': estimate_liq(bids, mid, threshold=0.05, is_bid=True),
-            'ask_5': estimate_liq(asks, mid, threshold=0.05, is_bid=False),
-            'ask_10': estimate_liq(asks, mid, threshold=0.05, is_bid=False),
-        }
-        liquidity.update(row)
-        with open(f'./liquidity/{asset}.json', 'w') as f:
-            json.dump(liquidity, f, indent=4)
-        time.sleep(1)
+    logging.basicConfig(
+        filename='./logs/liquidity.log',
+        level=logging.INFO,
+        format='%(asctime)s - %(levelname)s - %(message)s'
+    )
+    try:
+        assets = fetch_assets()
+        logging.info(f'Fetched {assets.shape[0]} assets')
+        all_liquidity = []
+        for i, row in assets.iterrows():
+            symbol = row['symbol']
+            asset = row['asset']
+            logging.info(f'Fetching orderbook for {asset} or {symbol}')
+            order_book = exchange.fetch_order_book(symbol, limit=None, params={"nSigFigs": 3})
+            logging.info(f'Orderbook with {len(order_book['bids'])} levels for {symbol}')
+            bids = pd.DataFrame(order_book['bids'], columns=['px', 'sz'])
+            asks = pd.DataFrame(order_book['asks'], columns=['px', 'sz'])
+            mid = float(bids.iloc[0]['px'] + asks.iloc[0]['px'])*0.5
+            liquidity = {
+                'mid': mid,
+                'bid_5': estimate_liq(bids, mid, threshold=0.05, is_bid=True),
+                'bid_10': estimate_liq(bids, mid, threshold=0.05, is_bid=True),
+                'ask_5': estimate_liq(asks, mid, threshold=0.1, is_bid=False),
+                'ask_10': estimate_liq(asks, mid, threshold=0.1, is_bid=False),
+            }
+            liquidity.update(row)
+            all_liquidity.append(liquidity)
+            with open(f'./liquidity/{asset}.json', 'w') as f:
+                json.dump(liquidity, f, indent=4)
+            time.sleep(1)
+        all_liquidity = pd.DataFrame(all_liquidity)
+        all_liquidity.to_csv(f'./key_stats/all_liquidity.csv', index=False)
+
+    except Exception as e:
+        msg = f'Liquidity call failed because {e}'
+        logging.error(msg)
+        send_pushover_alert(msg, priority=-1)
+        time.sleep(60)
+
+
+if __name__ == '__main__':
+    while True:
+        fetch_liquidity()
+
 

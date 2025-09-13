@@ -4,3 +4,6 @@
 *.csv
 /positions
 /liquidity
+/liquidation_risks
+/large_positions
+/logs

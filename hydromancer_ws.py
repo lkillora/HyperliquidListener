@@ -21,7 +21,6 @@ async def connect():
                     "type": "subscribe",
                     "subscription": {
                         "type": "allTwapStatusUpdates"
-                        # "dex": "dex_name"  # optional
                     }
                 }
                 await ws.send(json.dumps(subscribe_message))

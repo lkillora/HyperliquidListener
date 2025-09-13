@@ -105,4 +105,4 @@ def fetch_mids():
     prices = pd.DataFrame.from_dict(response.json(), orient='index').reset_index()
     prices.columns = ['symbol', 'mid']
     prices = prices[prices['symbol'].apply(lambda s: s[0] != '@' or s in spot_assets)].reset_index(drop=True)
-    prices.to_csv('./prices.csv', index=False)
+    prices.to_csv('./key_stats/prices.csv', index=False)

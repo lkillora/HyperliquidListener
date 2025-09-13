@@ -3,9 +3,21 @@ Scrape Hyperdash for every perp and HYPE spot -> gets positions and unrealized p
 
 Label traders based on S3 + Hyperdash to have an idea -> for non-losers and less active accs with meaningful size save their positions
 
+
+Got 5% liq
+Got total OI (better than top anyway)
+liquidation risk positions
+large positions relative to liquidity
+HYPE Holders
+
+Need
+Twaps if dynamic big size
+Twaps from top HYPE
+Price alerts
+
 Alert if:
 Alert if twap size (adjusted to 30 mins if >30 mins in length) is greater than 5% liquidity on that asset and > $250k in notional size —> frontrun/check who it is
-Alert if twap size (adjusted to day or less) > the lowest OI of top 50 accs on that asset —> frontrun/check who it is
+Alert if twap size (adjusted to day or less) > $250k and > 2.5% of total OI (usually top 10 position) —> frontrun/check who it is
 Alert if position with liquidation within 15% of current price is greater than the 5% liquidity —> frontrun/hunt?
 (For positions which are more than the 5-10% liquidity mark) alert if some of this position is closed and notional > $100k -> frontrun/check who it is
 (For large HYPE holders who are underwater and have large positions with near liquidation levels relative to the liquidity of HYPE spot) alert if they start selling HYPE
