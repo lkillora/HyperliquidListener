@@ -99,8 +99,8 @@ async def filter_message(data):
                 u['oi'] = stats['oi_threshold']
                 u['dv'] = stats['dv_threshold']
                 u['liq_check'] = liq_check
-                u['oi_check'] = notional/1e6 > stats['oi_threshold']*0.1
-                u['vol_check'] = notional/1e6 > stats['dv_threshold']*0.1
+                u['oi_check'] = (notional/1e6)/stats['oi_threshold']
+                u['vol_check'] = (notional/1e6)/stats['dv_threshold']
                 if liq_check or oi_check or vol_check:
                     asyncio.create_task(async_send_pushover_alert(u, priority=1))
 
