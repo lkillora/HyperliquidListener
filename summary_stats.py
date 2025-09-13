@@ -39,39 +39,40 @@ def summarise():
         with open(f"./liquidity/{asset}.json", 'r') as f:
             liquidity = json.load(f)
 
-        liquidation_risks = []
-        large_positions = []
-        notionals = []
-        accs = list(positions['positions'].keys())
-        for acc in accs:
-            position = positions['positions'][acc]
-            notionals.append(position['notional_size'])
-            position['dir'] = 'LONG' if position['size'] >= 0 else 'SHORT'
-            position['liq'] = liquidity['bid_5'] if position['dir'] == 'SHORT' else liquidity['ask_5']
-            position['mid'] = liquidity['mid']
-            position['distance'] = round(abs(position['liquidation_price'] - position['mid'])/position['mid'], 2) if position['liquidation_price'] is not None else None
-            position['address'] = acc
-            position['asset'] = asset
-            position['size_over_liq5'] = round((float(position['notional_size'])/1e3)/max(500, position['liq']), 2)
-            position['size_over_liq10'] = round((float(position['notional_size'])/1e3)/max(500, liquidity['bid_10'], liquidity['ask_10']), 2)
-            liq_size_check = position['size_over_liq5'] > 1
-            liq_distance_check = position['distance'] < 0.15 if position['distance'] is not None else False
-            pos_size_check = position['size_over_liq10'] > 2
-            hype_distance_check = position['distance'] < 0.2 if position['distance'] is not None else False
-            if acc in top_hype_holders_upnl and hype_distance_check:
-                top_hype_holders_upnl[acc] += position['unrealized_pnl']
-            if liq_size_check and liq_distance_check:
-                liquidation_risks.append(position)
-                message = f'LIQ RISK: {position}'
-                send_pushover_alert(message, priority=1)
-            if pos_size_check:
-                large_positions.append(position)
-                message = f'POS RISK: {position}'
-                send_pushover_alert(message, priority=1)
-        with open(f'./liquidation_risks/{asset}.json', "w") as f:
-            json.dump(liquidation_risks, f, indent=4)
-        with open(f'./large_positions/{asset}.json', "w") as f:
-            json.dump(large_positions, f, indent=4)
+        if 'positions' in positions:
+            liquidation_risks = []
+            large_positions = []
+            notionals = []
+            accs = list(positions['positions'].keys())
+            for acc in accs:
+                position = positions['positions'][acc]
+                notionals.append(position['notional_size'])
+                position['dir'] = 'LONG' if position['size'] >= 0 else 'SHORT'
+                position['liq'] = liquidity['bid_5'] if position['dir'] == 'SHORT' else liquidity['ask_5']
+                position['mid'] = liquidity['mid']
+                position['distance'] = round(abs(position['liquidation_price'] - position['mid'])/position['mid'], 2) if position['liquidation_price'] is not None else None
+                position['address'] = acc
+                position['asset'] = asset
+                position['size_over_liq5'] = round((float(position['notional_size'])/1e3)/max(500, position['liq']), 2)
+                position['size_over_liq10'] = round((float(position['notional_size'])/1e3)/max(500, liquidity['bid_10'], liquidity['ask_10']), 2)
+                liq_size_check = position['size_over_liq5'] > 1
+                liq_distance_check = position['distance'] < 0.15 if position['distance'] is not None else False
+                pos_size_check = position['size_over_liq10'] > 2
+                hype_distance_check = position['distance'] < 0.2 if position['distance'] is not None else False
+                if acc in top_hype_holders_upnl and hype_distance_check:
+                    top_hype_holders_upnl[acc] += position['unrealized_pnl']
+                if liq_size_check and liq_distance_check:
+                    liquidation_risks.append(position)
+                    message = f'LIQ RISK: {position}'
+                    send_pushover_alert(message, priority=1)
+                if pos_size_check:
+                    large_positions.append(position)
+                    message = f'POS RISK: {position}'
+                    send_pushover_alert(message, priority=1)
+            with open(f'./liquidation_risks/{asset}.json', "w") as f:
+                json.dump(liquidation_risks, f, indent=4)
+            with open(f'./large_positions/{asset}.json', "w") as f:
+                json.dump(large_positions, f, indent=4)
 
     hype_holders_at_risk = [h for h in top_hype_holders_upnl if -1*top_hype_holders_upnl[h] > hype_liquidity['bid_5']]
     hype_at_risk = []
