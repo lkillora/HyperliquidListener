@@ -58,7 +58,7 @@ def summarise():
                 position['size_over_liq10'] = round((float(position['notional_size'])/1e3)/max(500, liquidity['bid_10'], liquidity['ask_10']), 2)
                 liq_size_check = position['size_over_liq5'] > 1
                 liq_distance_check = position['distance'] < 0.15 if position['distance'] is not None else False
-                pos_size_check = position['size_over_liq10'] > 2
+                pos_size_check = position['size_over_liq10'] > 4
                 pos_distance_check = position['distance'] < 0.2 if position['distance'] is not None else False
                 hype_distance_check = position['distance'] < 0.2 if position['distance'] is not None else False
                 if acc in top_hype_holders_upnl and hype_distance_check:
@@ -67,7 +67,7 @@ def summarise():
                     liquidation_risks.append(position)
                     message = f'LIQ RISK: {position}'
                     send_pushover_alert(message, priority=1)
-                if pos_size_check and pos_distance_check:
+                if pos_size_check:
                     large_positions.append(position)
                     message = f'POS RISK: {position}'
                     send_pushover_alert(message, priority=1)
