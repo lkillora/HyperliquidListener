@@ -86,7 +86,7 @@ def scrape_hyperdash_with_scraping_bee_sdk(symbol='XPL'):
     return data
 
 
-def fetch_positions():
+def fetch_positions(sleep_time=10):
     logging.basicConfig(
         filename='./logs/positions.log',
         level=logging.INFO,
@@ -105,7 +105,7 @@ def fetch_positions():
                     logging.info(f'Fetched {len(positions['positions'])} positions for {asset}')
                 else:
                     logging.info(f'Fetched 0 positions for {asset}')
-                time.sleep(10)
+                time.sleep(5)
             except Exception as e:
                 msg = f'Positions call failed for {asset} because of {e}'
                 logging.error(msg)
@@ -119,6 +119,8 @@ def fetch_positions():
 
 
 if __name__ == '__main__':
+    fetch_positions(sleep_time=0)
     while True:
-        fetch_positions()
+        fetch_positions(sleep_time=10)
+
 
