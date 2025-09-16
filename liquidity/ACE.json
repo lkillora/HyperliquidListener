@@ -1,17 +1,18 @@
 {
-    "mid": 0.661,
-    "bid_5": 161,
-    "bid_10": 161,
-    "ask_5": 183,
-    "ask_10": 183,
+    "mid": 0.6065,
+    "bid_5": 164,
+    "bid_10": 164,
+    "ask_5": 170,
+    "ask_10": 170,
     "id": "96",
     "symbol": "ACE/USDC:USDC",
     "baseName": "ACE",
     "spot": false,
-    "midPx": "0.6621",
+    "midPx": "0.6022",
     "maxLeverage": "3",
-    "openInterest_mil": 1.198,
+    "openInterest_mil": 0.203,
     "totalSupplyMcap_bil": NaN,
-    "dayNtlVlm_mil": 0.65,
-    "asset": "ACE"
+    "dayNtlVlm_mil": 0.474,
+    "asset": "ACE",
+    "order_of_magnitude": -0.2202592488232595
 }

@@ -1,17 +1,18 @@
 {
-    "mid": 0.5575000000000001,
-    "bid_5": 2111,
-    "bid_10": 2111,
-    "ask_5": 2132,
-    "ask_10": 2132,
+    "mid": 0.505,
+    "bid_5": 2858,
+    "bid_10": 2858,
+    "ask_5": 3025,
+    "ask_10": 3025,
     "id": "90",
     "symbol": "JUP/USDC:USDC",
     "baseName": "JUP",
     "spot": false,
-    "midPx": "0.5576",
+    "midPx": "0.507855",
     "maxLeverage": "10",
-    "openInterest_mil": 32.679,
+    "openInterest_mil": 15.379,
     "totalSupplyMcap_bil": NaN,
-    "dayNtlVlm_mil": 3.454,
-    "asset": "JUP"
+    "dayNtlVlm_mil": 3.322,
+    "asset": "JUP",
+    "order_of_magnitude": -0.29426026741850614
 }

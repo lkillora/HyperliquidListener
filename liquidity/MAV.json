@@ -1,17 +1,18 @@
 {
-    "mid": 0.07100000000000001,
-    "bid_5": 117,
-    "bid_10": 117,
-    "ask_5": 131,
-    "ask_10": 131,
+    "mid": 0.06755,
+    "bid_5": 123,
+    "bid_10": 123,
+    "ask_5": 138,
+    "ask_10": 138,
     "id": "97",
     "symbol": "MAV/USDC:USDC",
     "baseName": "MAV",
     "spot": false,
-    "midPx": "0.070979",
+    "midPx": "0.0676",
     "maxLeverage": "3",
-    "openInterest_mil": 3.832,
+    "openInterest_mil": 0.297,
     "totalSupplyMcap_bil": NaN,
-    "dayNtlVlm_mil": 0.321,
-    "asset": "MAV"
+    "dayNtlVlm_mil": 0.286,
+    "asset": "MAV",
+    "order_of_magnitude": -1.170053304058364
 }

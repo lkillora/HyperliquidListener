@@ -1,17 +1,18 @@
 {
-    "mid": 4725.0,
-    "bid_5": 234174,
-    "bid_10": 234174,
-    "ask_5": 220812,
-    "ask_10": 220812,
+    "mid": 4450.0,
+    "bid_5": 382186,
+    "bid_10": 382186,
+    "ask_5": 341913,
+    "ask_10": 341913,
     "id": "1",
     "symbol": "ETH/USDC:USDC",
     "baseName": "ETH",
     "spot": false,
-    "midPx": "4720.25",
+    "midPx": "4505.05",
     "maxLeverage": "25",
-    "openInterest_mil": 0.68,
+    "openInterest_mil": 3725.954,
     "totalSupplyMcap_bil": NaN,
-    "dayNtlVlm_mil": 3448.641,
-    "asset": "ETH"
+    "dayNtlVlm_mil": 2590.513,
+    "asset": "ETH",
+    "order_of_magnitude": 3.6536996154268673
 }

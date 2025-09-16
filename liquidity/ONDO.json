@@ -1,17 +1,18 @@
 {
-    "mid": 1.1150000000000002,
-    "bid_5": 6723,
-    "bid_10": 6723,
-    "ask_5": 4826,
-    "ask_10": 4826,
+    "mid": 1.045,
+    "bid_5": 1175,
+    "bid_10": 1175,
+    "ask_5": 914,
+    "ask_10": 914,
     "id": "106",
     "symbol": "ONDO/USDC:USDC",
     "baseName": "ONDO",
     "spot": false,
-    "midPx": "1.1193",
+    "midPx": "1.0452",
     "maxLeverage": "10",
-    "openInterest_mil": 29.245,
+    "openInterest_mil": 29.855,
     "totalSupplyMcap_bil": NaN,
-    "dayNtlVlm_mil": 19.486,
-    "asset": "ONDO"
+    "dayNtlVlm_mil": 12.658,
+    "asset": "ONDO",
+    "order_of_magnitude": 0.01919940105528799
 }

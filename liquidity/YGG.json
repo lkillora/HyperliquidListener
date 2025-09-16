@@ -1,17 +1,18 @@
 {
-    "mid": 0.2545,
-    "bid_5": 355,
-    "bid_10": 355,
-    "ask_5": 330,
-    "ask_10": 330,
+    "mid": 0.195,
+    "bid_5": 253,
+    "bid_10": 253,
+    "ask_5": 240,
+    "ask_10": 240,
     "id": "36",
     "symbol": "YGG/USDC:USDC",
     "baseName": "YGG",
     "spot": false,
-    "midPx": "0.253305",
+    "midPx": "0.19739",
     "maxLeverage": "3",
-    "openInterest_mil": 3.833,
+    "openInterest_mil": 0.635,
     "totalSupplyMcap_bil": NaN,
-    "dayNtlVlm_mil": 5.014,
-    "asset": "YGG"
+    "dayNtlVlm_mil": 0.936,
+    "asset": "YGG",
+    "order_of_magnitude": -0.704674852957296
 }

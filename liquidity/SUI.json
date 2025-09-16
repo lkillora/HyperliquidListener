@@ -1,17 +1,18 @@
 {
-    "mid": 3.835,
-    "bid_5": 13021,
-    "bid_10": 13021,
-    "ask_5": 10991,
-    "ask_10": 10991,
+    "mid": 3.55,
+    "bid_5": 12847,
+    "bid_10": 12847,
+    "ask_5": 12261,
+    "ask_10": 12261,
     "id": "14",
     "symbol": "SUI/USDC:USDC",
     "baseName": "SUI",
     "spot": false,
-    "midPx": "3.8353",
+    "midPx": "3.5755",
     "maxLeverage": "10",
-    "openInterest_mil": 30.661,
+    "openInterest_mil": 111.591,
     "totalSupplyMcap_bil": NaN,
-    "dayNtlVlm_mil": 84.463,
-    "asset": "SUI"
+    "dayNtlVlm_mil": 35.197,
+    "asset": "SUI",
+    "order_of_magnitude": 0.5533367823768884
 }

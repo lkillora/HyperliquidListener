@@ -1,17 +1,18 @@
 {
-    "mid": 0.5555000000000001,
-    "bid_5": 5876,
-    "bid_10": 5876,
-    "ask_5": 6192,
-    "ask_10": 6192,
+    "mid": 0.495,
+    "bid_5": 3730,
+    "bid_10": 3730,
+    "ask_5": 4866,
+    "ask_10": 4866,
     "id": "11",
     "symbol": "ARB/USDC:USDC",
     "baseName": "ARB",
     "spot": false,
-    "midPx": "0.55539",
+    "midPx": "0.49276",
     "maxLeverage": "10",
-    "openInterest_mil": 50.99,
+    "openInterest_mil": 23.957,
     "totalSupplyMcap_bil": NaN,
-    "dayNtlVlm_mil": 11.081,
-    "asset": "ARB"
+    "dayNtlVlm_mil": 6.39,
+    "asset": "ARB",
+    "order_of_magnitude": -0.30736455344983593
 }

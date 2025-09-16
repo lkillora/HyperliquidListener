@@ -1,17 +1,18 @@
 {
-    "mid": 603.5,
-    "bid_5": 3459,
-    "bid_10": 3459,
-    "ask_5": 3362,
-    "ask_10": 3362,
+    "mid": 595.0,
+    "bid_5": 3960,
+    "bid_10": 3960,
+    "ask_5": 4304,
+    "ask_10": 4304,
     "id": "26",
     "symbol": "BCH/USDC:USDC",
     "baseName": "BCH",
     "spot": false,
-    "midPx": "603.055",
+    "midPx": "590.445",
     "maxLeverage": "10",
-    "openInterest_mil": 0.022,
+    "openInterest_mil": 9.07,
     "totalSupplyMcap_bil": NaN,
-    "dayNtlVlm_mil": 2.923,
-    "asset": "BCH"
+    "dayNtlVlm_mil": 2.892,
+    "asset": "BCH",
+    "order_of_magnitude": 2.7711794492671107
 }

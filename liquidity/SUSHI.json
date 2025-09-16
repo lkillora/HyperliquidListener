@@ -1,17 +1,18 @@
 {
-    "mid": 0.863,
-    "bid_5": 272,
-    "bid_10": 272,
-    "ask_5": 288,
-    "ask_10": 288,
+    "mid": 0.795,
+    "bid_5": 153,
+    "bid_10": 153,
+    "ask_5": 157,
+    "ask_10": 157,
     "id": "82",
     "symbol": "SUSHI/USDC:USDC",
     "baseName": "SUSHI",
     "spot": false,
-    "midPx": "0.86277",
+    "midPx": "0.78789",
     "maxLeverage": "5",
-    "openInterest_mil": 0.869,
+    "openInterest_mil": 0.677,
     "totalSupplyMcap_bil": NaN,
-    "dayNtlVlm_mil": 0.325,
-    "asset": "SUSHI"
+    "dayNtlVlm_mil": 0.324,
+    "asset": "SUSHI",
+    "order_of_magnitude": -0.10353441160649447
 }

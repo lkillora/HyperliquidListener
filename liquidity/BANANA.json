@@ -1,17 +1,18 @@
 {
-    "mid": 22.15,
-    "bid_5": 298,
-    "bid_10": 298,
-    "ask_5": 303,
-    "ask_10": 303,
+    "mid": 21.5,
+    "bid_5": 142,
+    "bid_10": 142,
+    "ask_5": 147,
+    "ask_10": 147,
     "id": "49",
     "symbol": "BANANA/USDC:USDC",
     "baseName": "BANANA",
     "spot": false,
-    "midPx": "22.148",
+    "midPx": "21.424",
     "maxLeverage": "3",
-    "openInterest_mil": 0.04,
+    "openInterest_mil": 1.159,
     "totalSupplyMcap_bil": NaN,
-    "dayNtlVlm_mil": 1.429,
-    "asset": "BANANA"
+    "dayNtlVlm_mil": 0.64,
+    "asset": "BANANA",
+    "order_of_magnitude": 1.3309005596679337
 }

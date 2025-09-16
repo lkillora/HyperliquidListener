@@ -1,17 +1,18 @@
 {
-    "mid": 3.2649999999999997,
-    "bid_5": 5079,
-    "bid_10": 5079,
-    "ask_5": 4842,
-    "ask_10": 4842,
+    "mid": 3.1500000000000004,
+    "bid_5": 3248,
+    "bid_10": 3248,
+    "ask_5": 3760,
+    "ask_10": 3760,
     "id": "66",
     "symbol": "TON/USDC:USDC",
     "baseName": "TON",
     "spot": false,
-    "midPx": "3.2625",
+    "midPx": "3.186",
     "maxLeverage": "10",
-    "openInterest_mil": 9.392,
+    "openInterest_mil": 30.594,
     "totalSupplyMcap_bil": NaN,
-    "dayNtlVlm_mil": 7.79,
-    "asset": "TON"
+    "dayNtlVlm_mil": 2.348,
+    "asset": "TON",
+    "order_of_magnitude": 0.5032457714651127
 }

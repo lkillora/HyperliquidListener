@@ -1,17 +1,18 @@
 {
-    "mid": 2.885,
-    "bid_5": 5158,
-    "bid_10": 5158,
-    "ask_5": 5618,
-    "ask_10": 5618,
+    "mid": 2.6500000000000004,
+    "bid_5": 5262,
+    "bid_10": 5262,
+    "ask_5": 5957,
+    "ask_10": 5957,
     "id": "74",
     "symbol": "NEAR/USDC:USDC",
     "baseName": "NEAR",
     "spot": false,
-    "midPx": "2.88525",
+    "midPx": "2.6876",
     "maxLeverage": "10",
-    "openInterest_mil": 4.244,
+    "openInterest_mil": 15.482,
     "totalSupplyMcap_bil": NaN,
-    "dayNtlVlm_mil": 3.618,
-    "asset": "NEAR"
+    "dayNtlVlm_mil": 4.099,
+    "asset": "NEAR",
+    "order_of_magnitude": 0.42936463241769735
 }

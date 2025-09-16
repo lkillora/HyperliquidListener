@@ -1,17 +1,18 @@
 {
-    "mid": 0.6984999999999999,
-    "bid_5": 364,
-    "bid_10": 364,
-    "ask_5": 276,
-    "ask_10": 276,
+    "mid": 0.66,
+    "bid_5": 332,
+    "bid_10": 332,
+    "ask_5": 254,
+    "ask_10": 254,
     "id": "19",
     "symbol": "STX/USDC:USDC",
     "baseName": "STX",
     "spot": false,
-    "midPx": "0.69841",
+    "midPx": "0.65739",
     "maxLeverage": "5",
-    "openInterest_mil": 2.707,
+    "openInterest_mil": 3.47,
     "totalSupplyMcap_bil": NaN,
-    "dayNtlVlm_mil": 0.619,
-    "asset": "STX"
+    "dayNtlVlm_mil": 1.502,
+    "asset": "STX",
+    "order_of_magnitude": -0.1821769065486606
 }

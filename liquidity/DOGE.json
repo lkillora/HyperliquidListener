@@ -1,17 +1,18 @@
 {
-    "mid": 0.2965,
-    "bid_5": 25211,
-    "bid_10": 25211,
-    "ask_5": 25402,
-    "ask_10": 25402,
+    "mid": 0.265,
+    "bid_5": 27827,
+    "bid_10": 27827,
+    "ask_5": 33786,
+    "ask_10": 33786,
     "id": "12",
     "symbol": "DOGE/USDC:USDC",
     "baseName": "DOGE",
     "spot": false,
-    "midPx": "0.296275",
+    "midPx": "0.264835",
     "maxLeverage": "10",
-    "openInterest_mil": 1090.462,
+    "openInterest_mil": 272.182,
     "totalSupplyMcap_bil": NaN,
-    "dayNtlVlm_mil": 299.095,
-    "asset": "DOGE"
+    "dayNtlVlm_mil": 149.578,
+    "asset": "DOGE",
+    "order_of_magnitude": -0.5770246200540782
 }

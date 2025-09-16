@@ -1,17 +1,18 @@
 {
-    "mid": 2.085,
-    "bid_5": 636,
-    "bid_10": 636,
-    "ask_5": 522,
-    "ask_10": 522,
+    "mid": 1.85,
+    "bid_5": 384,
+    "bid_10": 384,
+    "ask_5": 361,
+    "ask_10": 361,
     "id": "46",
     "symbol": "ZRO/USDC:USDC",
     "baseName": "ZRO",
     "spot": false,
-    "midPx": "2.08605",
+    "midPx": "1.89435",
     "maxLeverage": "5",
-    "openInterest_mil": 3.419,
+    "openInterest_mil": 6.678,
     "totalSupplyMcap_bil": NaN,
-    "dayNtlVlm_mil": 1.882,
-    "asset": "ZRO"
+    "dayNtlVlm_mil": 2.044,
+    "asset": "ZRO",
+    "order_of_magnitude": 0.27746022230493256
 }

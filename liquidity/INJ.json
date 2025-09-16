@@ -1,17 +1,18 @@
 {
-    "mid": 14.850000000000001,
-    "bid_5": 2840,
-    "bid_10": 2840,
-    "ask_5": 2843,
-    "ask_10": 2843,
+    "mid": 13.5,
+    "bid_5": 3231,
+    "bid_10": 3231,
+    "ask_5": 3350,
+    "ask_10": 3350,
     "id": "13",
     "symbol": "INJ/USDC:USDC",
     "baseName": "INJ",
     "spot": false,
-    "midPx": "14.849",
+    "midPx": "13.618",
     "maxLeverage": "10",
-    "openInterest_mil": 0.607,
+    "openInterest_mil": 8.131,
     "totalSupplyMcap_bil": NaN,
-    "dayNtlVlm_mil": 4.96,
-    "asset": "INJ"
+    "dayNtlVlm_mil": 2.597,
+    "asset": "INJ",
+    "order_of_magnitude": 1.1341133298423243
 }

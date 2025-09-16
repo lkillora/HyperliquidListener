@@ -1,17 +1,18 @@
 {
-    "mid": 319.5,
-    "bid_5": 13865,
-    "bid_10": 13865,
-    "ask_5": 13673,
-    "ask_10": 13673,
+    "mid": 295.0,
+    "bid_5": 14373,
+    "bid_10": 14373,
+    "ask_5": 16799,
+    "ask_10": 16799,
     "id": "28",
     "symbol": "AAVE/USDC:USDC",
     "baseName": "AAVE",
     "spot": false,
-    "midPx": "319.615",
+    "midPx": "295.005",
     "maxLeverage": "10",
-    "openInterest_mil": 0.181,
+    "openInterest_mil": 56.906,
     "totalSupplyMcap_bil": NaN,
-    "dayNtlVlm_mil": 25.638,
-    "asset": "AAVE"
+    "dayNtlVlm_mil": 14.119,
+    "asset": "AAVE",
+    "order_of_magnitude": 2.469829376839205
 }

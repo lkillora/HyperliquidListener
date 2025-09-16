@@ -1,17 +1,18 @@
 {
-    "mid": 10.350000000000001,
-    "bid_5": 2546,
-    "bid_10": 2546,
-    "ask_5": 2861,
-    "ask_10": 2861,
+    "mid": 9.350000000000001,
+    "bid_5": 2176,
+    "bid_10": 2176,
+    "ask_5": 2247,
+    "ask_10": 2247,
     "id": "39",
     "symbol": "UNI/USDC:USDC",
     "baseName": "UNI",
     "spot": false,
-    "midPx": "10.3155",
+    "midPx": "9.274",
     "maxLeverage": "10",
-    "openInterest_mil": 1.851,
+    "openInterest_mil": 29.225,
     "totalSupplyMcap_bil": NaN,
-    "dayNtlVlm_mil": 6.243,
-    "asset": "UNI"
+    "dayNtlVlm_mil": 4.268,
+    "asset": "UNI",
+    "order_of_magnitude": 0.9672670915597856
 }

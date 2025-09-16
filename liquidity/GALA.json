@@ -1,17 +1,18 @@
 {
-    "mid": 0.01865,
-    "bid_5": 550,
-    "bid_10": 550,
-    "ask_5": 583,
-    "ask_10": 583,
+    "mid": 0.0165,
+    "bid_5": 281,
+    "bid_10": 281,
+    "ask_5": 266,
+    "ask_10": 266,
     "id": "93",
     "symbol": "GALA/USDC:USDC",
     "baseName": "GALA",
     "spot": false,
-    "midPx": "0.018608",
+    "midPx": "0.016774",
     "maxLeverage": "3",
-    "openInterest_mil": 38.961,
+    "openInterest_mil": 0.639,
     "totalSupplyMcap_bil": NaN,
-    "dayNtlVlm_mil": 0.274,
-    "asset": "GALA"
+    "dayNtlVlm_mil": 0.307,
+    "asset": "GALA",
+    "order_of_magnitude": -1.7753633613185598
 }

@@ -1,17 +1,18 @@
 {
-    "mid": 0.6655,
-    "bid_5": 240,
-    "bid_10": 240,
-    "ask_5": 155,
-    "ask_10": 155,
+    "mid": 0.705,
+    "bid_5": 210,
+    "bid_10": 210,
+    "ask_5": 211,
+    "ask_10": 211,
     "id": "84",
     "symbol": "IMX/USDC:USDC",
     "baseName": "IMX",
     "spot": false,
-    "midPx": "0.66561",
+    "midPx": "0.70902",
     "maxLeverage": "5",
-    "openInterest_mil": 1.73,
+    "openInterest_mil": 1.804,
     "totalSupplyMcap_bil": NaN,
-    "dayNtlVlm_mil": 1.6,
-    "asset": "IMX"
+    "dayNtlVlm_mil": 1.249,
+    "asset": "IMX",
+    "order_of_magnitude": -0.14934151408755217
 }

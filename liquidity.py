@@ -5,6 +5,7 @@ import ccxt
 import logging
 from pushover import send_pushover_alert
 from glob import glob
+import math
 
 spot_assets = {
     "@107": "HYPE/USDC",
@@ -34,8 +35,12 @@ def estimate_liq(bins, mid, threshold=0.05, is_bid=True):
     over_threshold = bins[bins['delta'] > threshold]
     if over_threshold.empty:
         liq = float(bins['cumliq'].max())
+        delta = float(bins['delta'].max())
+        liq *= threshold/delta
     elif under_threshold.empty:
         liq = float(bins['cumliq'].min())
+        delta = float(bins['delta'].min())
+        liq *= delta/threshold
     else:
         over = over_threshold.iloc[0]
         under = under_threshold.iloc[-1]
@@ -100,7 +105,7 @@ def fetch_liquidity():
                 symbol = row['symbol']
                 asset = row['asset']
                 logging.info(f'Fetching orderbook for {asset} or {symbol}')
-                order_book = exchange.fetch_order_book(symbol, limit=None, params={"nSigFigs": 3})
+                order_book = exchange.fetch_order_book(symbol, limit=None, params={"nSigFigs": 2})
                 logging.info(f'Orderbook with {len(order_book['bids'])} levels for {symbol}')
                 bids = pd.DataFrame(order_book['bids'], columns=['px', 'sz'])
                 asks = pd.DataFrame(order_book['asks'], columns=['px', 'sz'])

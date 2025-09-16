@@ -1,17 +1,18 @@
 {
-    "mid": 1.6349999999999998,
-    "bid_5": 13165,
-    "bid_10": 13165,
-    "ask_5": 13070,
-    "ask_10": 13070,
+    "mid": 1.55,
+    "bid_5": 6506,
+    "bid_10": 6506,
+    "ask_5": 12497,
+    "ask_10": 12497,
     "id": "31",
     "symbol": "WLD/USDC:USDC",
     "baseName": "WLD",
     "spot": false,
-    "midPx": "1.63515",
+    "midPx": "1.50235",
     "maxLeverage": "10",
-    "openInterest_mil": 42.83,
+    "openInterest_mil": 68.046,
     "totalSupplyMcap_bil": NaN,
-    "dayNtlVlm_mil": 48.426,
-    "asset": "WLD"
+    "dayNtlVlm_mil": 28.264,
+    "asset": "WLD",
+    "order_of_magnitude": 0.17677112132416756
 }

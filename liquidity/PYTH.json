@@ -1,17 +1,18 @@
 {
-    "mid": 0.1795,
-    "bid_5": 1008,
-    "bid_10": 1008,
-    "ask_5": 878,
-    "ask_10": 878,
+    "mid": 0.165,
+    "bid_5": 351,
+    "bid_10": 351,
+    "ask_5": 566,
+    "ask_10": 566,
     "id": "81",
     "symbol": "PYTH/USDC:USDC",
     "baseName": "PYTH",
     "spot": false,
-    "midPx": "0.179525",
+    "midPx": "0.163975",
     "maxLeverage": "5",
-    "openInterest_mil": 32.469,
+    "openInterest_mil": 4.629,
     "totalSupplyMcap_bil": NaN,
-    "dayNtlVlm_mil": 2.885,
-    "asset": "PYTH"
+    "dayNtlVlm_mil": 1.29,
+    "asset": "PYTH",
+    "order_of_magnitude": -0.7852223604259273
 }

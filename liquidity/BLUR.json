@@ -1,17 +1,18 @@
 {
-    "mid": 0.08885000000000001,
-    "bid_5": 253,
-    "bid_10": 253,
-    "ask_5": 98,
-    "ask_10": 98,
+    "mid": 0.0835,
+    "bid_5": 311,
+    "bid_10": 311,
+    "ask_5": 169,
+    "ask_10": 169,
     "id": "62",
     "symbol": "BLUR/USDC:USDC",
     "baseName": "BLUR",
     "spot": false,
-    "midPx": "0.088837",
+    "midPx": "0.083645",
     "maxLeverage": "5",
-    "openInterest_mil": 28.456,
+    "openInterest_mil": 2.623,
     "totalSupplyMcap_bil": NaN,
-    "dayNtlVlm_mil": 0.424,
-    "asset": "BLUR"
+    "dayNtlVlm_mil": 0.458,
+    "asset": "BLUR",
+    "order_of_magnitude": -1.077560014502061
 }

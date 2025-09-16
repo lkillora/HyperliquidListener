@@ -1,17 +1,18 @@
 {
-    "mid": 241.5,
-    "bid_5": 126584,
-    "bid_10": 126584,
-    "ask_5": 108561,
-    "ask_10": 108561,
+    "mid": 235.0,
+    "bid_5": 154881,
+    "bid_10": 154881,
+    "ask_5": 100009,
+    "ask_10": 100009,
     "id": "5",
     "symbol": "SOL/USDC:USDC",
     "baseName": "SOL",
     "spot": false,
-    "midPx": "241.825",
+    "midPx": "235.655",
     "maxLeverage": "20",
-    "openInterest_mil": 5.982,
+    "openInterest_mil": 1675.842,
     "totalSupplyMcap_bil": NaN,
-    "dayNtlVlm_mil": 1264.271,
-    "asset": "SOL"
+    "dayNtlVlm_mil": 975.077,
+    "asset": "SOL",
+    "order_of_magnitude": 2.372276658818221
 }

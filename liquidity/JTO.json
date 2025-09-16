@@ -1,17 +1,18 @@
 {
-    "mid": 2.005,
-    "bid_5": 802,
-    "bid_10": 802,
-    "ask_5": 711,
-    "ask_10": 711,
+    "mid": 1.85,
+    "bid_5": 468,
+    "bid_10": 468,
+    "ask_5": 419,
+    "ask_10": 419,
     "id": "94",
     "symbol": "JTO/USDC:USDC",
     "baseName": "JTO",
     "spot": false,
-    "midPx": "2.00155",
+    "midPx": "1.8339",
     "maxLeverage": "5",
-    "openInterest_mil": 3.75,
+    "openInterest_mil": 7.44,
     "totalSupplyMcap_bil": NaN,
-    "dayNtlVlm_mil": 3.603,
-    "asset": "JTO"
+    "dayNtlVlm_mil": 2.28,
+    "asset": "JTO",
+    "order_of_magnitude": 0.2633756505094427
 }

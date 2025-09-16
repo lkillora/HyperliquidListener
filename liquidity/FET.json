@@ -1,17 +1,18 @@
 {
-    "mid": 0.698,
-    "bid_5": 3190,
-    "bid_10": 3190,
-    "ask_5": 3165,
-    "ask_10": 3165,
+    "mid": 0.645,
+    "bid_5": 2805,
+    "bid_10": 2805,
+    "ask_5": 2808,
+    "ask_10": 2808,
     "id": "72",
     "symbol": "FET/USDC:USDC",
     "baseName": "FET",
     "spot": false,
-    "midPx": "0.69821",
+    "midPx": "0.644775",
     "maxLeverage": "5",
-    "openInterest_mil": 5.191,
+    "openInterest_mil": 3.16,
     "totalSupplyMcap_bil": NaN,
-    "dayNtlVlm_mil": 0.871,
-    "asset": "FET"
+    "dayNtlVlm_mil": 0.49,
+    "asset": "FET",
+    "order_of_magnitude": -0.19059180987004437
 }

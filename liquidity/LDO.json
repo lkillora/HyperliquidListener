@@ -1,17 +1,18 @@
 {
-    "mid": 1.3250000000000002,
-    "bid_5": 2225,
-    "bid_10": 2225,
-    "ask_5": 1498,
-    "ask_10": 1498,
+    "mid": 1.15,
+    "bid_5": 1357,
+    "bid_10": 1357,
+    "ask_5": 1420,
+    "ask_10": 1420,
     "id": "17",
     "symbol": "LDO/USDC:USDC",
     "baseName": "LDO",
     "spot": false,
-    "midPx": "1.32465",
+    "midPx": "1.1773",
     "maxLeverage": "10",
-    "openInterest_mil": 26.948,
+    "openInterest_mil": 30.648,
     "totalSupplyMcap_bil": NaN,
-    "dayNtlVlm_mil": 5.377,
-    "asset": "LDO"
+    "dayNtlVlm_mil": 3.165,
+    "asset": "LDO",
+    "order_of_magnitude": 0.07088714401854079
 }

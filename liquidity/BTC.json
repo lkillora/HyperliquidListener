@@ -1,17 +1,18 @@
 {
-    "mid": 115500.0,
-    "bid_5": 394501,
-    "bid_10": 394501,
-    "ask_5": 646680,
-    "ask_10": 646680,
+    "mid": 115000.0,
+    "bid_5": 507567,
+    "bid_10": 507567,
+    "ask_5": 499227,
+    "ask_10": 499227,
     "id": "0",
     "symbol": "BTC/USDC:USDC",
     "baseName": "BTC",
     "spot": false,
-    "midPx": "115976.5",
+    "midPx": "115336.5",
     "maxLeverage": "40",
-    "openInterest_mil": 0.033,
+    "openInterest_mil": 3958.953,
     "totalSupplyMcap_bil": NaN,
-    "dayNtlVlm_mil": 2080.229,
-    "asset": "BTC"
+    "dayNtlVlm_mil": 2301.966,
+    "asset": "BTC",
+    "order_of_magnitude": 5.0619667681798735
 }

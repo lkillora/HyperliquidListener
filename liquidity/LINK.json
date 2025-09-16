@@ -1,17 +1,18 @@
 {
-    "mid": 25.35,
-    "bid_5": 26513,
-    "bid_10": 26513,
-    "ask_5": 27069,
-    "ask_10": 27069,
+    "mid": 23.5,
+    "bid_5": 16702,
+    "bid_10": 16702,
+    "ask_5": 19474,
+    "ask_10": 19474,
     "id": "18",
     "symbol": "LINK/USDC:USDC",
     "baseName": "LINK",
     "spot": false,
-    "midPx": "25.2975",
+    "midPx": "23.616",
     "maxLeverage": "10",
-    "openInterest_mil": 5.284,
+    "openInterest_mil": 108.08,
     "totalSupplyMcap_bil": NaN,
-    "dayNtlVlm_mil": 82.327,
-    "asset": "LINK"
+    "dayNtlVlm_mil": 15.787,
+    "asset": "LINK",
+    "order_of_magnitude": 1.3732063401429475
 }

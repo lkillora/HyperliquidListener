@@ -1,17 +1,18 @@
 {
-    "mid": 0.0905,
-    "bid_5": 348,
-    "bid_10": 348,
-    "ask_5": 289,
-    "ask_10": 289,
+    "mid": 0.08549999999999999,
+    "bid_5": 454,
+    "bid_10": 454,
+    "ask_5": 415,
+    "ask_10": 415,
     "id": "60",
     "symbol": "KAS/USDC:USDC",
     "baseName": "KAS",
     "spot": false,
-    "midPx": "0.090462",
+    "midPx": "0.085004",
     "maxLeverage": "3",
-    "openInterest_mil": 19.719,
+    "openInterest_mil": 1.548,
     "totalSupplyMcap_bil": NaN,
-    "dayNtlVlm_mil": 0.412,
-    "asset": "KAS"
+    "dayNtlVlm_mil": 0.362,
+    "asset": "KAS",
+    "order_of_magnitude": -1.0705606373791883
 }

@@ -1,17 +1,18 @@
 {
-    "mid": 3.175,
-    "bid_5": 65980,
-    "bid_10": 65980,
-    "ask_5": 63090,
-    "ask_10": 63090,
+    "mid": 3.05,
+    "bid_5": 63680,
+    "bid_10": 63680,
+    "ask_5": 66124,
+    "ask_10": 66124,
     "id": "25",
     "symbol": "XRP/USDC:USDC",
     "baseName": "XRP",
     "spot": false,
-    "midPx": "3.17255",
+    "midPx": "3.03055",
     "maxLeverage": "20",
-    "openInterest_mil": 96.258,
+    "openInterest_mil": 249.179,
     "totalSupplyMcap_bil": NaN,
-    "dayNtlVlm_mil": 266.234,
-    "asset": "XRP"
+    "dayNtlVlm_mil": 186.559,
+    "asset": "XRP",
+    "order_of_magnitude": 0.4815214536801197
 }

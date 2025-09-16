@@ -1,17 +1,18 @@
 {
-    "mid": 0.9495,
-    "bid_5": 8788,
-    "bid_10": 8788,
-    "ask_5": 13492,
-    "ask_10": 13492,
+    "mid": 0.87,
+    "bid_5": 10919,
+    "bid_10": 10919,
+    "ask_5": 12916,
+    "ask_10": 12916,
     "id": "65",
     "symbol": "ADA/USDC:USDC",
     "baseName": "ADA",
     "spot": false,
-    "midPx": "0.948225",
+    "midPx": "0.869755",
     "maxLeverage": "10",
-    "openInterest_mil": 51.726,
+    "openInterest_mil": 33.199,
     "totalSupplyMcap_bil": NaN,
-    "dayNtlVlm_mil": 27.754,
-    "asset": "ADA"
+    "dayNtlVlm_mil": 8.356,
+    "asset": "ADA",
+    "order_of_magnitude": -0.06060306592481971
 }

@@ -1,17 +1,18 @@
 {
-    "mid": 0.01455,
-    "bid_5": 3956,
-    "bid_10": 3956,
-    "ask_5": 4007,
-    "ask_10": 4007,
+    "mid": 0.0135,
+    "bid_5": 750,
+    "bid_10": 750,
+    "ask_5": 3962,
+    "ask_10": 3962,
     "id": "38",
     "symbol": "KSHIB/USDC:USDC",
     "baseName": "kSHIB",
     "spot": false,
-    "midPx": "0.014495",
+    "midPx": "0.013028",
     "maxLeverage": "10",
-    "openInterest_mil": 587.269,
+    "openInterest_mil": 6.731,
     "totalSupplyMcap_bil": NaN,
-    "dayNtlVlm_mil": 13.921,
-    "asset": "kSHIB"
+    "dayNtlVlm_mil": 1.722,
+    "asset": "kSHIB",
+    "order_of_magnitude": -1.8851222501071645
 }

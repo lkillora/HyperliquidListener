@@ -1,17 +1,18 @@
 {
-    "mid": 942.5,
-    "bid_5": 7643,
-    "bid_10": 7643,
-    "ask_5": 7986,
-    "ask_10": 7986,
+    "mid": 925.0,
+    "bid_5": 8084,
+    "bid_10": 8084,
+    "ask_5": 7912,
+    "ask_10": 7912,
     "id": "7",
     "symbol": "BNB/USDC:USDC",
     "baseName": "BNB",
     "spot": false,
-    "midPx": "942.645",
+    "midPx": "927.605",
     "maxLeverage": "10",
-    "openInterest_mil": 0.073,
+    "openInterest_mil": 65.181,
     "totalSupplyMcap_bil": NaN,
-    "dayNtlVlm_mil": 22.219,
-    "asset": "BNB"
+    "dayNtlVlm_mil": 11.113,
+    "asset": "BNB",
+    "order_of_magnitude": 2.967363080917391
 }

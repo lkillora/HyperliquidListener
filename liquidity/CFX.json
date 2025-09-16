@@ -1,17 +1,18 @@
 {
-    "mid": 0.185,
-    "bid_5": 936,
-    "bid_10": 936,
-    "ask_5": 799,
-    "ask_10": 799,
+    "mid": 0.175,
+    "bid_5": 288,
+    "bid_10": 288,
+    "ask_5": 412,
+    "ask_10": 412,
     "id": "21",
     "symbol": "CFX/USDC:USDC",
     "baseName": "CFX",
     "spot": false,
-    "midPx": "0.184945",
+    "midPx": "0.17879",
     "maxLeverage": "5",
-    "openInterest_mil": 8.294,
+    "openInterest_mil": 1.431,
     "totalSupplyMcap_bil": NaN,
-    "dayNtlVlm_mil": 0.634,
-    "asset": "CFX"
+    "dayNtlVlm_mil": 0.368,
+    "asset": "CFX",
+    "order_of_magnitude": -0.7476567756199142
 }

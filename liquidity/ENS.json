@@ -1,17 +1,18 @@
 {
-    "mid": 25.25,
-    "bid_5": 627,
-    "bid_10": 627,
-    "ask_5": 454,
-    "ask_10": 454,
+    "mid": 23.15,
+    "bid_5": 364,
+    "bid_10": 364,
+    "ask_5": 313,
+    "ask_10": 313,
     "id": "101",
     "symbol": "ENS/USDC:USDC",
     "baseName": "ENS",
     "spot": false,
-    "midPx": "25.2205",
+    "midPx": "23.1805",
     "maxLeverage": "5",
-    "openInterest_mil": 0.529,
+    "openInterest_mil": 11.918,
     "totalSupplyMcap_bil": NaN,
-    "dayNtlVlm_mil": 0.374,
-    "asset": "ENS"
+    "dayNtlVlm_mil": 0.311,
+    "asset": "ENS",
+    "order_of_magnitude": 1.3651227993971637
 }

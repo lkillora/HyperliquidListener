@@ -1,17 +1,18 @@
 {
-    "mid": 120.5,
-    "bid_5": 23563,
-    "bid_10": 23563,
-    "ask_5": 20106,
-    "ask_10": 20106,
+    "mid": 115.0,
+    "bid_5": 11451,
+    "bid_10": 11451,
+    "ask_5": 13349,
+    "ask_10": 13349,
     "id": "10",
     "symbol": "LTC/USDC:USDC",
     "baseName": "LTC",
     "spot": false,
-    "midPx": "120.65",
+    "midPx": "114.405",
     "maxLeverage": "10",
-    "openInterest_mil": 0.645,
+    "openInterest_mil": 67.552,
     "totalSupplyMcap_bil": NaN,
-    "dayNtlVlm_mil": 48.455,
-    "asset": "LTC"
+    "dayNtlVlm_mil": 12.453,
+    "asset": "LTC",
+    "order_of_magnitude": 2.058445005444395
 }

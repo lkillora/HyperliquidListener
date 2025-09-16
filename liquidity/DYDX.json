@@ -1,17 +1,18 @@
 {
-    "mid": 0.667,
-    "bid_5": 226,
-    "bid_10": 226,
-    "ask_5": 392,
-    "ask_10": 392,
+    "mid": 0.62,
+    "bid_5": 238,
+    "bid_10": 238,
+    "ask_5": 377,
+    "ask_10": 377,
     "id": "4",
     "symbol": "DYDX/USDC:USDC",
     "baseName": "DYDX",
     "spot": false,
-    "midPx": "0.66667",
+    "midPx": "0.6197",
     "maxLeverage": "5",
-    "openInterest_mil": 2.337,
+    "openInterest_mil": 1.527,
     "totalSupplyMcap_bil": NaN,
-    "dayNtlVlm_mil": 0.484,
-    "asset": "DYDX"
+    "dayNtlVlm_mil": 0.336,
+    "asset": "DYDX",
+    "order_of_magnitude": -0.20781850385032116
 }

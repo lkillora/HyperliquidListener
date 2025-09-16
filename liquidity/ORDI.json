@@ -1,17 +1,18 @@
 {
-    "mid": 10.55,
-    "bid_5": 2703,
-    "bid_10": 2703,
-    "ask_5": 2919,
-    "ask_10": 2919,
+    "mid": 9.649999999999999,
+    "bid_5": 1811,
+    "bid_10": 1811,
+    "ask_5": 2837,
+    "ask_10": 2837,
     "id": "76",
     "symbol": "ORDI/USDC:USDC",
     "baseName": "ORDI",
     "spot": false,
-    "midPx": "10.5925",
+    "midPx": "9.593",
     "maxLeverage": "5",
-    "openInterest_mil": 0.152,
+    "openInterest_mil": 1.115,
     "totalSupplyMcap_bil": NaN,
-    "dayNtlVlm_mil": 0.389,
-    "asset": "ORDI"
+    "dayNtlVlm_mil": 0.261,
+    "asset": "ORDI",
+    "order_of_magnitude": 0.9819544444699736
 }

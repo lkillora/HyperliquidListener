@@ -1,17 +1,18 @@
 {
-    "mid": 0.8565,
-    "bid_5": 2649,
-    "bid_10": 2649,
-    "ask_5": 2157,
-    "ask_10": 2157,
+    "mid": 0.725,
+    "bid_5": 2095,
+    "bid_10": 2095,
+    "ask_5": 1767,
+    "ask_10": 1767,
     "id": "16",
     "symbol": "CRV/USDC:USDC",
     "baseName": "CRV",
     "spot": false,
-    "midPx": "0.85584",
+    "midPx": "0.73004",
     "maxLeverage": "10",
-    "openInterest_mil": 52.962,
+    "openInterest_mil": 36.267,
     "totalSupplyMcap_bil": NaN,
-    "dayNtlVlm_mil": 13.292,
-    "asset": "CRV"
+    "dayNtlVlm_mil": 9.166,
+    "asset": "CRV",
+    "order_of_magnitude": -0.13665334357357922
 }

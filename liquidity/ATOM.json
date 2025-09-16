@@ -1,17 +1,18 @@
 {
-    "mid": 4.865,
-    "bid_5": 377,
-    "bid_10": 377,
-    "ask_5": 369,
-    "ask_10": 369,
+    "mid": 4.45,
+    "bid_5": 425,
+    "bid_10": 425,
+    "ask_5": 438,
+    "ask_10": 438,
     "id": "2",
     "symbol": "ATOM/USDC:USDC",
     "baseName": "ATOM",
     "spot": false,
-    "midPx": "4.8679",
+    "midPx": "4.4632",
     "maxLeverage": "5",
-    "openInterest_mil": 1.34,
+    "openInterest_mil": 5.919,
     "totalSupplyMcap_bil": NaN,
-    "dayNtlVlm_mil": 0.549,
-    "asset": "ATOM"
+    "dayNtlVlm_mil": 0.509,
+    "asset": "ATOM",
+    "order_of_magnitude": 0.6496463484023127
 }

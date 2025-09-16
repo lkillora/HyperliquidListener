@@ -1,17 +1,18 @@
 {
-    "mid": 2.955,
-    "bid_5": 227,
-    "bid_10": 227,
-    "ask_5": 314,
-    "ask_10": 314,
+    "mid": 2.6500000000000004,
+    "bid_5": 264,
+    "bid_10": 264,
+    "ask_5": 249,
+    "ask_10": 249,
     "id": "32",
     "symbol": "FXS/USDC:USDC",
     "baseName": "FXS",
     "spot": false,
-    "midPx": "2.9511",
+    "midPx": "2.675",
     "maxLeverage": "5",
-    "openInterest_mil": 0.789,
+    "openInterest_mil": 2.699,
     "totalSupplyMcap_bil": NaN,
-    "dayNtlVlm_mil": 2.082,
-    "asset": "FXS"
+    "dayNtlVlm_mil": 0.854,
+    "asset": "FXS",
+    "order_of_magnitude": 0.4273237863572472
 }

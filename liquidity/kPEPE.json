@@ -1,17 +1,18 @@
 {
-    "mid": 0.01235,
-    "bid_5": 13989,
-    "bid_10": 13989,
-    "ask_5": 14981,
-    "ask_10": 14981,
+    "mid": 0.010499999999999999,
+    "bid_5": 20716,
+    "bid_10": 20716,
+    "ask_5": 15336,
+    "ask_10": 15336,
     "id": "15",
     "symbol": "KPEPE/USDC:USDC",
     "baseName": "kPEPE",
     "spot": false,
-    "midPx": "0.012371",
+    "midPx": "0.010781",
     "maxLeverage": "10",
-    "openInterest_mil": 11745.059,
+    "openInterest_mil": 136.37,
     "totalSupplyMcap_bil": NaN,
-    "dayNtlVlm_mil": 151.976,
-    "asset": "kPEPE"
+    "dayNtlVlm_mil": 37.056,
+    "asset": "kPEPE",
+    "order_of_magnitude": -1.967340953960076
 }

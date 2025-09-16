@@ -1,17 +1,18 @@
 {
-    "mid": 1.895,
-    "bid_5": 5313,
-    "bid_10": 5313,
-    "ask_5": 5528,
-    "ask_10": 5528,
+    "mid": 1.65,
+    "bid_5": 4860,
+    "bid_10": 4860,
+    "ask_5": 5302,
+    "ask_10": 5302,
     "id": "63",
     "symbol": "TIA/USDC:USDC",
     "baseName": "TIA",
     "spot": false,
-    "midPx": "1.8914",
+    "midPx": "1.7074",
     "maxLeverage": "10",
-    "openInterest_mil": 7.99,
+    "openInterest_mil": 13.185,
     "totalSupplyMcap_bil": NaN,
-    "dayNtlVlm_mil": 8.532,
-    "asset": "TIA"
+    "dayNtlVlm_mil": 3.019,
+    "asset": "TIA",
+    "order_of_magnitude": 0.23233527708565443
 }

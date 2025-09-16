@@ -1,17 +1,18 @@
 {
-    "mid": 0.832,
-    "bid_5": 3083,
-    "bid_10": 3083,
-    "ask_5": 3027,
-    "ask_10": 3027,
+    "mid": 0.755,
+    "bid_5": 2636,
+    "bid_10": 2636,
+    "ask_5": 2762,
+    "ask_10": 2762,
     "id": "9",
     "symbol": "OP/USDC:USDC",
     "baseName": "OP",
     "spot": false,
-    "midPx": "0.8319",
+    "midPx": "0.75649",
     "maxLeverage": "10",
-    "openInterest_mil": 7.943,
+    "openInterest_mil": 5.707,
     "totalSupplyMcap_bil": NaN,
-    "dayNtlVlm_mil": 2.366,
-    "asset": "OP"
+    "dayNtlVlm_mil": 3.013,
+    "asset": "OP",
+    "order_of_magnitude": -0.12119680851789096
 }

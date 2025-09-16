@@ -1,17 +1,18 @@
 {
-    "mid": 0.9835,
-    "bid_5": 4274,
-    "bid_10": 4274,
-    "ask_5": 7704,
-    "ask_10": 7704,
+    "mid": 0.8925000000000001,
+    "bid_5": 3946,
+    "bid_10": 3946,
+    "ask_5": 3860,
+    "ask_10": 3860,
     "id": "98",
     "symbol": "WIF/USDC:USDC",
     "baseName": "WIF",
     "spot": false,
-    "midPx": "0.98398",
+    "midPx": "0.891645",
     "maxLeverage": "10",
-    "openInterest_mil": 26.702,
+    "openInterest_mil": 20.878,
     "totalSupplyMcap_bil": NaN,
-    "dayNtlVlm_mil": 11.515,
-    "asset": "WIF"
+    "dayNtlVlm_mil": 5.296,
+    "asset": "WIF",
+    "order_of_magnitude": -0.04980802144065822
 }

@@ -1,17 +1,18 @@
 {
-    "mid": 30.55,
-    "bid_5": 17330,
-    "bid_10": 17330,
-    "ask_5": 16603,
-    "ask_10": 16603,
+    "mid": 30.5,
+    "bid_5": 12134,
+    "bid_10": 12134,
+    "ask_5": 12849,
+    "ask_10": 12849,
     "id": "6",
     "symbol": "AVAX/USDC:USDC",
     "baseName": "AVAX",
     "spot": false,
-    "midPx": "30.5125",
+    "midPx": "30.4935",
     "maxLeverage": "10",
-    "openInterest_mil": 3.819,
+    "openInterest_mil": 104.115,
     "totalSupplyMcap_bil": NaN,
-    "dayNtlVlm_mil": 78.874,
-    "asset": "AVAX"
+    "dayNtlVlm_mil": 78.085,
+    "asset": "AVAX",
+    "order_of_magnitude": 1.484207274921296
 }

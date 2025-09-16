@@ -1,17 +1,18 @@
 {
-    "mid": 4.735,
-    "bid_5": 3812,
-    "bid_10": 3812,
-    "ask_5": 5325,
-    "ask_10": 5325,
+    "mid": 4.45,
+    "bid_5": 4676,
+    "bid_10": 4676,
+    "ask_5": 5747,
+    "ask_10": 5747,
     "id": "27",
     "symbol": "APT/USDC:USDC",
     "baseName": "APT",
     "spot": false,
-    "midPx": "4.7351",
+    "midPx": "4.4018",
     "maxLeverage": "10",
-    "openInterest_mil": 4.448,
+    "openInterest_mil": 15.565,
     "totalSupplyMcap_bil": NaN,
-    "dayNtlVlm_mil": 5.181,
-    "asset": "APT"
+    "dayNtlVlm_mil": 1.562,
+    "asset": "APT",
+    "order_of_magnitude": 0.6436303060797531
 }

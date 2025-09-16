@@ -1,17 +1,18 @@
 {
-    "mid": 22.35,
-    "bid_5": 508,
-    "bid_10": 508,
-    "ask_5": 529,
-    "ask_10": 529,
+    "mid": 20.35,
+    "bid_5": 582,
+    "bid_10": 582,
+    "ask_5": 538,
+    "ask_10": 538,
     "id": "102",
     "symbol": "ETC/USDC:USDC",
     "baseName": "ETC",
     "spot": false,
-    "midPx": "22.3145",
+    "midPx": "20.3865",
     "maxLeverage": "5",
-    "openInterest_mil": 0.133,
+    "openInterest_mil": 2.31,
     "totalSupplyMcap_bil": NaN,
-    "dayNtlVlm_mil": 0.476,
-    "asset": "ETC"
+    "dayNtlVlm_mil": 0.32,
+    "asset": "ETC",
+    "order_of_magnitude": 1.3093426715280012
 }

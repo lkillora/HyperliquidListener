@@ -1,17 +1,18 @@
 {
-    "mid": 0.3525,
-    "bid_5": 2157,
-    "bid_10": 2157,
-    "ask_5": 3047,
-    "ask_10": 3047,
+    "mid": 0.345,
+    "bid_5": 1840,
+    "bid_10": 1840,
+    "ask_5": 2554,
+    "ask_10": 2554,
     "id": "37",
     "symbol": "TRX/USDC:USDC",
     "baseName": "TRX",
     "spot": false,
-    "midPx": "0.352775",
+    "midPx": "0.345905",
     "maxLeverage": "10",
-    "openInterest_mil": 53.843,
+    "openInterest_mil": 17.99,
     "totalSupplyMcap_bil": NaN,
-    "dayNtlVlm_mil": 5.383,
-    "asset": "TRX"
+    "dayNtlVlm_mil": 1.534,
+    "asset": "TRX",
+    "order_of_magnitude": -0.46104316028481374
 }
