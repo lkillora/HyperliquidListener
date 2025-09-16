@@ -86,7 +86,7 @@ async def filter_message(data):
                 mid = prices.get(coin)
             minutes = float(u['minutes'])
             notional = float(u['sz']) * mid
-            notional_check = notional > 250_000
+            notional_check = notional > 450_000
             if notional_check:
                 notional_30min = notional * min(1, 30 / minutes)
                 liq_check = notional_30min/1e3 > stats['liq_threshold']

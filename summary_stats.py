@@ -5,6 +5,7 @@ import os
 from pushover import send_pushover_alert
 import logging
 
+alerted_positions = []
 
 def summarise():
     position_files = glob('./positions/*.json')
@@ -58,19 +59,25 @@ def summarise():
                 position['size_over_liq10'] = round((float(position['notional_size'])/1e3)/max(500, liquidity['bid_10'], liquidity['ask_10']), 2)
                 liq_size_check = position['size_over_liq5'] > 1
                 liq_distance_check = position['distance'] < 0.15 if position['distance'] is not None else False
+                strict_liq_distance_check = position['distance'] < 0.05 if position['distance'] is not None else False
                 pos_size_check = position['size_over_liq10'] > 4
                 pos_distance_check = position['distance'] < 0.2 if position['distance'] is not None else False
                 hype_distance_check = position['distance'] < 0.2 if position['distance'] is not None else False
+                combo = f'{acc}-{asset}'
                 if acc in top_hype_holders_upnl and hype_distance_check:
                     top_hype_holders_upnl[acc] += position['unrealized_pnl']
                 if liq_size_check and liq_distance_check:
                     liquidation_risks.append(position)
                     message = f'LIQ RISK: {position}'
-                    send_pushover_alert(message, priority=1)
+                    if combo not in alerted_positions or strict_liq_distance_check:
+                        alerted_positions.append(combo)
+                        send_pushover_alert(message, priority=1)
                 if pos_size_check:
                     large_positions.append(position)
                     message = f'POS RISK: {position}'
-                    send_pushover_alert(message, priority=1)
+                    if combo not in alerted_positions:
+                        alerted_positions.append(combo)
+                        send_pushover_alert(message, priority=1)
             with open(f'./liquidation_risks/{asset}.json', "w") as f:
                 json.dump(liquidation_risks, f, indent=4)
             with open(f'./large_positions/{asset}.json', "w") as f:
